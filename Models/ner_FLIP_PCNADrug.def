@@ -1,0 +1,686 @@
+DESCRIPTION
+"NER Model"
+"PCNA FLIP"
+
+PREDICTOR
+t               T   s     time	0	18000
+
+COMPARTMENTS
+
+
+STATES
+y1          C   muM      conc.   nuc 0
+y2          C   muM      conc.   nuc 0
+y3          C   muM      conc.   nuc 0
+y4          C   muM      conc.   nuc 0
+y5          C   muM      conc.   nuc 0
+y6          C   muM      conc.   nuc 0
+y7          C   muM      conc.   nuc 0
+y8          C   muM      conc.   nuc 0
+y9          C   muM      conc.   nuc 0
+y10         C   muM      conc.   nuc 0
+y11         C   muM      conc.   nuc 0
+y12         C   muM      conc.   nuc 0
+y13         C   muM      conc.   nuc 0
+y14         C   muM      conc.   nuc 0
+y15         C   muM      conc.   nuc 0
+y16         C   muM      conc.   nuc 0
+y17         C   muM      conc.   nuc 0
+y18         C   muM      conc.   nuc 0
+y19         C   muM      conc.   nuc 0
+y20         C   muM      conc.   nuc 0
+y21         C   muM      conc.   nuc 0
+y22         C   muM      conc.   nuc 0
+y23         C   muM      conc.   nuc 0
+y24         C   muM      conc.   nuc 0
+y25         C   muM      conc.   nuc 0
+y26         C   muM      conc.   nuc 0
+y27         C   muM      conc.   nuc 0
+y28         C   muM      conc.   nuc 0
+y29         C   muM      conc.   nuc 0
+y30         C   muM      conc.   nuc 0
+y31         C   muM      conc.   nuc 0
+y32         C   muM      conc.   nuc 0
+y33         C   muM      conc.   nuc 0
+y34         C   muM      conc.   nuc 0
+y35         C   muM      conc.   nuc 0
+y36         C   muM      conc.   nuc 0
+y37         C   muM      conc.   nuc 0
+y38         C   muM      conc.   nuc 0
+y39         C   muM      conc.   nuc 0
+y40         C   muM      conc.   nuc 0
+y41         C   muM      conc.   nuc 0
+y42         C   muM      conc.   nuc 0
+y43         C   muM      conc.   nuc 0
+y44         C   muM      conc.   nuc 0
+y45         C   muM      conc.   nuc 0
+y46         C   muM      conc.   nuc 0
+y47         C   muM      conc.   nuc 0
+y48         C   muM      conc.   nuc 0
+y49         C   muM      conc.   nuc 0
+y50         C   muM      conc.   nuc 0
+y51         C   muM      conc.   nuc 0
+y52         C   muM      conc.   nuc 0
+y53         C   muM      conc.   nuc 0
+y54         C   muM      conc.   nuc 0
+y55         C   muM      conc.   nuc 0
+y56         C   muM      conc.   nuc 0
+y57         C   muM      conc.   nuc 0
+y58         C   muM      conc.   nuc 0
+y59         C   muM      conc.   nuc 0
+y60         C   muM      conc.   nuc 0
+y61         C   muM      conc.   nuc 0
+y62         C   muM      conc.   nuc 0
+y63         C   muM      conc.   nuc 0
+y64         C   muM      conc.   nuc 0
+y65         C   muM      conc.   nuc 0
+y67         C   muM      conc.   nuc 0
+y68         C   muM      conc.   nuc 0
+y69         C   muM      conc.   nuc 0
+y70         C   muM      conc.   nuc 0
+y71         C   muM      conc.   nuc 0
+y72         C   muM      conc.   nuc 0
+y73         C   muM      conc.   nuc 0
+y74         C   muM      conc.   nuc 0
+y75         C   muM      conc.   nuc 0
+y76         C   muM      conc.   nuc 0
+y77         C   muM      conc.   nuc 0
+y78         C   muM      conc.   nuc 0
+y79         C   muM      conc.   nuc 0
+y80         C   muM      conc.   nuc 0
+y81         C   muM      conc.   nuc 0
+y82         C   muM      conc.   nuc 0
+y83         C   muM      conc.   nuc 0
+y84         C   muM      conc.   nuc 0
+y85         C   muM      conc.   nuc 0
+y86         C   muM      conc.   nuc 0
+y87         C   muM      conc.   nuc 0
+y88         C   muM      conc.   nuc 0
+y89         C   muM      conc.   nuc 0
+y90         C   muM      conc.   nuc 0
+y91         C   muM      conc.   nuc 0
+y92         C   muM      conc.   nuc 0
+y93         C   muM      conc.   nuc 0
+y94         C   muM      conc.   nuc 0
+y95         C   muM      conc.   nuc 0
+y96         C   muM      conc.   nuc 0
+y97         C   muM      conc.   nuc 0
+y98         C   muM      conc.   nuc 0
+y99         C   muM      conc.   nuc 0
+y100        C   muM      conc.   nuc 0
+y101        C   muM      conc.   nuc 0
+y102        C   muM      conc.   nuc 0
+y103        C   muM      conc.   nuc 0
+y104        C   muM      conc.   nuc 0
+y105        C   muM      conc.   nuc 0
+y106        C   muM      conc.   nuc 0
+y107        C   muM      conc.   nuc 0
+y108        C   muM      conc.   nuc 0
+y109        C   muM      conc.   nuc 0
+y110        C   muM      conc.   nuc 0
+y111        C   muM      conc.   nuc 0
+y112        C   muM      conc.   nuc 0
+y113        C   muM      conc.   nuc 0
+y114        C   muM      conc.   nuc 0
+y115        C   muM      conc.   nuc 0
+y116        C   muM      conc.   nuc 0
+y117        C   muM      conc.   nuc 0
+y118        C   muM      conc.   nuc 0
+y119        C   muM      conc.   nuc 0
+y120        C   muM      conc.   nuc 0
+y121        C   muM      conc.   nuc 0
+y122        C   muM      conc.   nuc 0
+y123        C   muM      conc.   nuc 0
+y124        C   muM      conc.   nuc 0
+y125        C   muM      conc.   nuc 0
+y126        C   muM      conc.   nuc 0
+y127        C   muM      conc.   nuc 0
+y128        C   muM      conc.   nuc 0
+y129        C   muM      conc.   nuc 0
+y130        C   muM      conc.   nuc 0
+y131        C   muM      conc.   nuc 0
+y132        C   muM      conc.   nuc 0
+y133        C   muM      conc.   nuc 0
+y134        C   muM      conc.   nuc 0
+y135        C   muM      conc.   nuc 0
+y136        C   muM      conc.   nuc 0
+y137        C   muM      conc.   nuc 0
+y138        C   muM      conc.   nuc 0
+y139        C   muM      conc.   nuc 0
+y140        C   muM      conc.   nuc 0
+y141        C   muM      conc.   nuc 0
+y142        C   muM      conc.   nuc 0
+y143        C   muM      conc.   nuc 0
+y144        C   muM      conc.   nuc 0
+y145        C   muM      conc.   nuc 0
+y146        C   muM      conc.   nuc 0
+y147        C   muM      conc.   nuc 0
+y148        C   muM      conc.   nuc 0
+y149        C   muM      conc.   nuc 0
+y150        C   muM      conc.   nuc 0
+y151        C   muM      conc.   nuc 0
+y152        C   muM      conc.   nuc 0
+y153        C   muM      conc.   nuc 0
+y154        C   muM      conc.   nuc 0
+y155        C   muM      conc.   nuc 0
+y156        C   muM      conc.   nuc 0
+y157        C   muM      conc.   nuc 0
+y158        C   muM      conc.   nuc 0
+y159        C   muM      conc.   nuc 0
+y160        C   muM      conc.   nuc 0
+y161        C   muM      conc.   nuc 0
+y162        C   muM      conc.   nuc 0
+y163        C   muM      conc.   nuc 0
+y164        C   muM      conc.   nuc 0
+y165        C   muM      conc.   nuc 0
+y166        C   muM      conc.   nuc 0
+y167        C   muM      conc.   nuc 0
+y168        C   muM      conc.   nuc 0
+y169        C   muM      conc.   nuc 0
+y170        C   muM      conc.   nuc 0
+y171        C   muM      conc.   nuc 0
+y172        C   muM      conc.   nuc 0
+y173        C   muM      conc.   nuc 0
+y174        C   muM      conc.   nuc 0
+y175        C   muM      conc.   nuc 0
+y176        C   muM      conc.   nuc 0
+y177        C   muM      conc.   nuc 0
+y178        C   muM      conc.   nuc 0
+y179        C   muM      conc.   nuc 0
+y180        C   muM      conc.   nuc 0
+y181        C   muM      conc.   nuc 0
+y182        C   muM      conc.   nuc 0
+y183        C   muM      conc.   nuc 0
+y184        C   muM      conc.   nuc 0
+y185        C   muM      conc.   nuc 0
+y186        C   muM      conc.   nuc 0
+y187        C   muM      conc.   nuc 0
+y188        C   muM      conc.   nuc 0
+y189        C   muM      conc.   nuc 0
+y190        C   muM      conc.   nuc 0
+y191        C   muM      conc.   nuc 0
+y192        C   muM      conc.   nuc 0
+y193        C   muM      conc.   nuc 0
+y194        C   muM      conc.   nuc 0
+y195        C   muM      conc.   nuc 0
+y196        C   muM      conc.   nuc 0
+y197        C   muM      conc.   nuc 0
+y198        C   muM      conc.   nuc 0
+y199        C   muM      conc.   nuc 0
+y200        C   muM      conc.   nuc 0
+y201        C   muM      conc.   nuc 0
+y202        C   muM      conc.   nuc 0
+y203        C   muM      conc.   nuc 0
+y204        C   muM      conc.   nuc 0
+y205        C   muM      conc.   nuc 0
+y206        C   muM      conc.   nuc 0
+y207        C   muM      conc.   nuc 0
+y208        C   muM      conc.   nuc 0
+y209        C   muM      conc.   nuc 0
+y210        C   muM      conc.   nuc 0
+y211        C   muM      conc.   nuc 0
+y212        C   muM      conc.   nuc 0
+y213        C   muM      conc.   nuc 0
+y214        C   muM      conc.   nuc 0
+
+
+INPUTS
+para_FLIP_pcna    C   au       conc.   "input_para_FLIP_pcnaDrug"
+
+ODES
+"+lc1*y2-kc1*y1*y208+epsilon*y4"
+"-lc1*y2+lt2*y3+kc1*y1*y208-kt1*y2*y209"
+"-lt2*y3+kt1*y2*y209-alpha*y3"
+
+
+"+lc2*y5+lt2*y6+lg2*y8+lf2*y12+la2*y20+lr2*y36-kc2*y4*y208-kt2*y4*y209-kg2*y4*y210-kf2*y4*y211-ka2*y4*y212-kr2*y4*y213-epsilon*y4"
+"-lc2*y5+lt2*y7+lg2*y9+lf2*y13+la2*y21+lr2*y37+kc2*y4*y208-kt2*y5*y209-kg2*y5*y210-kf2*y5*y211-ka2*y5*y212-kr2*y5*y213"
+"+lc2*y7-lt2*y6+lg2*y10+lf2*y14+la2*y22+lr2*y38-kc2*y6*y208+kt2*y4*y209-kg2*y6*y210-kf2*y6*y211-ka2*y6*y212-kr2*y6*y213"
+"-lc2*y7-lt2*y7+lg2*y11+lf2*y15+la2*y23+lr2*y39+kc2*y6*y208+kt2*y5*y209-kg2*y7*y210-kf2*y7*y211-ka2*y7*y212-kr2*y7*y213+alpha*y3"
+"+lc2*y9+lt2*y10-lg2*y8+lf2*y16+la2*y24+lr2*y40-kc2*y8*y208-kt2*y8*y209+kg2*y4*y210-kf2*y8*y211-ka2*y8*y212-kr2*y8*y213"
+"-lc2*y9+lt2*y11-lg2*y9+lf2*y17+la2*y25+lr2*y41+kc2*y8*y208-kt2*y9*y209+kg2*y5*y210-kf2*y9*y211-ka2*y9*y212-kr2*y9*y213"
+"+lc2*y11-lt2*y10-lg2*y10+lf2*y18+la2*y26+lr2*y42-kc2*y10*y208+kt2*y8*y209+kg2*y6*y210-kf2*y10*y211-ka2*y10*y212-kr2*y10*y213"
+"-lc2*y11-lt2*y11-lg2*y11+lf2*y19+la2*y27+lr2*y43+kc2*y10*y208+kt2*y9*y209+kg2*y7*y210-kf2*y11*y211-ka2*y11*y212-kr2*y11*y213"
+"+lc2*y13+lt2*y14+lg2*y16-lf2*y12+la2*y28+lr2*y44-kc2*y12*y208-kt2*y12*y209-kg2*y12*y210+kf2*y4*y211-ka2*y12*y212-kr2*y12*y213"
+"-lc2*y13+lt2*y15+lg2*y17-lf2*y13+la2*y29+lr2*y45+kc2*y12*y208-kt2*y13*y209-kg2*y13*y210+kf2*y5*y211-ka2*y13*y212-kr2*y13*y213"
+"+lc2*y15-lt2*y14+lg2*y18-lf2*y14+la2*y30+lr2*y46-kc2*y14*y208+kt2*y12*y209-kg2*y14*y210+kf2*y6*y211-ka2*y14*y212-kr2*y14*y213"
+"-lc2*y15-lt2*y15+lg2*y19-lf2*y15+la2*y31+lr2*y47+kc2*y14*y208+kt2*y13*y209-kg2*y15*y210+kf2*y7*y211-ka2*y15*y212-kr2*y15*y213"
+"+lc2*y17+lt2*y18-lg2*y16-lf2*y16+la2*y32+lr2*y48-kc2*y16*y208-kt2*y16*y209+kg2*y12*y210+kf2*y8*y211-ka2*y16*y212-kr2*y16*y213"
+"-lc2*y17+lt2*y19-lg2*y17-lf2*y17+la2*y33+lr2*y49+kc2*y16*y208-kt2*y17*y209+kg2*y13*y210+kf2*y9*y211-ka2*y17*y212-kr2*y17*y213"
+"+lc2*y19-lt2*y18-lg2*y18-lf2*y18+la2*y34+lr2*y50-kc2*y18*y208+kt2*y16*y209+kg2*y14*y210+kf2*y10*y211-ka2*y18*y212-kr2*y18*y213"
+"-lc2*y19-lt2*y19-lg2*y19-lf2*y19+la2*y35+lr2*y51+kc2*y18*y208+kt2*y17*y209+kg2*y15*y210+kf2*y11*y211-ka2*y19*y212-kr2*y19*y213"
+"+lc2*y21+lt2*y22+lg2*y24+lf2*y28-la2*y20+lr2*y52-kc2*y20*y208-kt2*y20*y209-kg2*y20*y210-kf2*y20*y211+ka2*y4*y212-kr2*y20*y213"
+"-lc2*y21+lt2*y23+lg2*y25+lf2*y29-la2*y21+lr2*y53+kc2*y20*y208-kt2*y21*y209-kg2*y21*y210-kf2*y21*y211+ka2*y5*y212-kr2*y21*y213"
+"+lc2*y23-lt2*y22+lg2*y26+lf2*y30-la2*y22+lr2*y54-kc2*y22*y208+kt2*y20*y209-kg2*y22*y210-kf2*y22*y211+ka2*y6*y212-kr2*y22*y213"
+"-lc2*y23-lt2*y23+lg2*y27+lf2*y31-la2*y23+lr2*y55+kc2*y22*y208+kt2*y21*y209-kg2*y23*y210-kf2*y23*y211+ka2*y7*y212-kr2*y23*y213"
+"+lc2*y25+lt2*y26-lg2*y24+lf2*y32-la2*y24+lr2*y56-kc2*y24*y208-kt2*y24*y209+kg2*y20*y210-kf2*y24*y211+ka2*y8*y212-kr2*y24*y213"
+"-lc2*y25+lt2*y27-lg2*y25+lf2*y33-la2*y25+lr2*y57+kc2*y24*y208-kt2*y25*y209+kg2*y21*y210-kf2*y25*y211+ka2*y9*y212-kr2*y25*y213"
+"+lc2*y27-lt2*y26-lg2*y26+lf2*y34-la2*y26+lr2*y58-kc2*y26*y208+kt2*y24*y209+kg2*y22*y210-kf2*y26*y211+ka2*y10*y212-kr2*y26*y213"
+"-lc2*y27-lt2*y27-lg2*y27+lf2*y35-la2*y27+lr2*y59+kc2*y26*y208+kt2*y25*y209+kg2*y23*y210-kf2*y27*y211+ka2*y11*y212-kr2*y27*y213"
+"+lc2*y29+lt2*y30+lg2*y32-lf2*y28-la2*y28+lr2*y60-kc2*y28*y208-kt2*y28*y209-kg2*y28*y210+kf2*y20*y211+ka2*y12*y212-kr2*y28*y213"
+"-lc2*y29+lt2*y31+lg2*y33-lf2*y29-la2*y29+lr2*y61+kc2*y28*y208-kt2*y29*y209-kg2*y29*y210+kf2*y21*y211+ka2*y13*y212-kr2*y29*y213"
+"+lc2*y31-lt2*y30+lg2*y34-lf2*y30-la2*y30+lr2*y62-kc2*y30*y208+kt2*y28*y209-kg2*y30*y210+kf2*y22*y211+ka2*y14*y212-kr2*y30*y213"
+"-lc2*y31-lt2*y31+lg2*y35-lf2*y31-la2*y31+lr2*y63+kc2*y30*y208+kt2*y29*y209-kg2*y31*y210+kf2*y23*y211+ka2*y15*y212-kr2*y31*y213"
+"+lc2*y33+lt2*y34-lg2*y32-lf2*y32-la2*y32+lr2*y64-kc2*y32*y208-kt2*y32*y209+kg2*y28*y210+kf2*y24*y211+ka2*y16*y212-kr2*y32*y213"
+"-lc2*y33+lt2*y35-lg2*y33-lf2*y33-la2*y33+lr2*y65+kc2*y32*y208-kt2*y33*y209+kg2*y29*y210+kf2*y25*y211+ka2*y17*y212-kr2*y33*y213"
+"+lc2*y35-lt2*y34-lg2*y34-lf2*y34-la2*y34-kc2*y34*y208+kt2*y32*y209+kg2*y30*y210+kf2*y26*y211+ka2*y18*y212-kr2*y34*y213"
+"-lc2*y35-lt2*y35-lg2*y35-lf2*y35-la2*y35+lr2*y67+kc2*y34*y208+kt2*y33*y209+kg2*y31*y210+kf2*y27*y211+ka2*y19*y212-kr2*y35*y213"
+"+lc2*y37+lt2*y38+lg2*y40+lf2*y44+la2*y52-lr2*y36-kc2*y36*y208-kt2*y36*y209-kg2*y36*y210-kf2*y36*y211-ka2*y36*y212+kr2*y4*y213"
+"-lc2*y37+lt2*y39+lg2*y41+lf2*y45+la2*y53-lr2*y37+kc2*y36*y208-kt2*y37*y209-kg2*y37*y210-kf2*y37*y211-ka2*y37*y212+kr2*y5*y213"
+"+lc2*y39-lt2*y38+lg2*y42+lf2*y46+la2*y54-lr2*y38-kc2*y38*y208+kt2*y36*y209-kg2*y38*y210-kf2*y38*y211-ka2*y38*y212+kr2*y6*y213"
+"-lc2*y39-lt2*y39+lg2*y43+lf2*y47+la2*y55-lr2*y39+kc2*y38*y208+kt2*y37*y209-kg2*y39*y210-kf2*y39*y211-ka2*y39*y212+kr2*y7*y213"
+"+lc2*y41+lt2*y42-lg2*y40+lf2*y48+la2*y56-lr2*y40-kc2*y40*y208-kt2*y40*y209+kg2*y36*y210-kf2*y40*y211-ka2*y40*y212+kr2*y8*y213"
+"-lc2*y41+lt2*y43-lg2*y41+lf2*y49+la2*y57-lr2*y41+kc2*y40*y208-kt2*y41*y209+kg2*y37*y210-kf2*y41*y211-ka2*y41*y212+kr2*y9*y213"
+"+lc2*y43-lt2*y42-lg2*y42+lf2*y50+la2*y58-lr2*y42-kc2*y42*y208+kt2*y40*y209+kg2*y38*y210-kf2*y42*y211-ka2*y42*y212+kr2*y10*y213"
+"-lc2*y43-lt2*y43-lg2*y43+lf2*y51+la2*y59-lr2*y43+kc2*y42*y208+kt2*y41*y209+kg2*y39*y210-kf2*y43*y211-ka2*y43*y212+kr2*y11*y213"
+"+lc2*y45+lt2*y46+lg2*y48-lf2*y44+la2*y60-lr2*y44-kc2*y44*y208-kt2*y44*y209-kg2*y44*y210+kf2*y36*y211-ka2*y44*y212+kr2*y12*y213"
+"-lc2*y45+lt2*y47+lg2*y49-lf2*y45+la2*y61-lr2*y45+kc2*y44*y208-kt2*y45*y209-kg2*y45*y210+kf2*y37*y211-ka2*y45*y212+kr2*y13*y213"
+"+lc2*y47-lt2*y46+lg2*y50-lf2*y46+la2*y62-lr2*y46-kc2*y46*y208+kt2*y44*y209-kg2*y46*y210+kf2*y38*y211-ka2*y46*y212+kr2*y14*y213"
+"-lc2*y47-lt2*y47+lg2*y51-lf2*y47+la2*y63-lr2*y47+kc2*y46*y208+kt2*y45*y209-kg2*y47*y210+kf2*y39*y211-ka2*y47*y212+kr2*y15*y213"
+"+lc2*y49+lt2*y50-lg2*y48-lf2*y48+la2*y64-lr2*y48-kc2*y48*y208-kt2*y48*y209+kg2*y44*y210+kf2*y40*y211-ka2*y48*y212+kr2*y16*y213"
+"-lc2*y49+lt2*y51-lg2*y49-lf2*y49+la2*y65-lr2*y49+kc2*y48*y208-kt2*y49*y209+kg2*y45*y210+kf2*y41*y211-ka2*y49*y212+kr2*y17*y213"
+"+lc2*y51-lt2*y50-lg2*y50-lf2*y50-lr2*y50-kc2*y50*y208+kt2*y48*y209+kg2*y46*y210+kf2*y42*y211-ka2*y50*y212+kr2*y18*y213"
+"-lc2*y51-lt2*y51-lg2*y51-lf2*y51+la2*y67-lr2*y51+kc2*y50*y208+kt2*y49*y209+kg2*y47*y210+kf2*y43*y211-ka2*y51*y212+kr2*y19*y213"
+"+lc2*y53+lt2*y54+lg2*y56+lf2*y60-la2*y52-lr2*y52-kc2*y52*y208-kt2*y52*y209-kg2*y52*y210-kf2*y52*y211+ka2*y36*y212+kr2*y20*y213"
+"-lc2*y53+lt2*y55+lg2*y57+lf2*y61-la2*y53-lr2*y53+kc2*y52*y208-kt2*y53*y209-kg2*y53*y210-kf2*y53*y211+ka2*y37*y212+kr2*y21*y213"
+"+lc2*y55-lt2*y54+lg2*y58+lf2*y62-la2*y54-lr2*y54-kc2*y54*y208+kt2*y52*y209-kg2*y54*y210-kf2*y54*y211+ka2*y38*y212+kr2*y22*y213"
+"-lc2*y55-lt2*y55+lg2*y59+lf2*y63-la2*y55-lr2*y55+kc2*y54*y208+kt2*y53*y209-kg2*y55*y210-kf2*y55*y211+ka2*y39*y212+kr2*y23*y213"
+"+lc2*y57+lt2*y58-lg2*y56+lf2*y64-la2*y56-lr2*y56-kc2*y56*y208-kt2*y56*y209+kg2*y52*y210-kf2*y56*y211+ka2*y40*y212+kr2*y24*y213"
+"-lc2*y57+lt2*y59-lg2*y57+lf2*y65-la2*y57-lr2*y57+kc2*y56*y208-kt2*y57*y209+kg2*y53*y210-kf2*y57*y211+ka2*y41*y212+kr2*y25*y213"
+"+lc2*y59-lt2*y58-lg2*y58-la2*y58-lr2*y58-kc2*y58*y208+kt2*y56*y209+kg2*y54*y210-kf2*y58*y211+ka2*y42*y212+kr2*y26*y213"
+"-lc2*y59-lt2*y59-lg2*y59+lf2*y67-la2*y59-lr2*y59+kc2*y58*y208+kt2*y57*y209+kg2*y55*y210-kf2*y59*y211+ka2*y43*y212+kr2*y27*y213"
+"+lc2*y61+lt2*y62+lg2*y64-lf2*y60-la2*y60-lr2*y60-kc2*y60*y208-kt2*y60*y209-kg2*y60*y210+kf2*y52*y211+ka2*y44*y212+kr2*y28*y213"
+"-lc2*y61+lt2*y63+lg2*y65-lf2*y61-la2*y61-lr2*y61+kc2*y60*y208-kt2*y61*y209-kg2*y61*y210+kf2*y53*y211+ka2*y45*y212+kr2*y29*y213"
+"+lc2*y63-lt2*y62-lf2*y62-la2*y62-lr2*y62-kc2*y62*y208+kt2*y60*y209-kg2*y62*y210+kf2*y54*y211+ka2*y46*y212+kr2*y30*y213"
+"-lc2*y63-lt2*y63+lg2*y67-lf2*y63-la2*y63-lr2*y63+kc2*y62*y208+kt2*y61*y209-kg2*y63*y210+kf2*y55*y211+ka2*y47*y212+kr2*y31*y213"
+"+lc2*y65-lg2*y64-lf2*y64-la2*y64-lr2*y64-kc2*y64*y208-kt2*y64*y209+kg2*y60*y210+kf2*y56*y211+ka2*y48*y212+kr2*y32*y213"
+"-lc2*y65+lt2*y67-lg2*y65-lf2*y65-la2*y65-lr2*y65+kc2*y64*y208-kt2*y65*y209+kg2*y61*y210+kf2*y57*y211+ka2*y49*y212+kr2*y33*y213"
+"-lc2*y67-lt2*y67-lg2*y67-lf2*y67-la2*y67-lr2*y67+kt2*y65*y209+kg2*y63*y210+kf2*y59*y211+ka2*y51*y212+kr2*y35*y213"
+
+
+
+
+"+lc2*y69+lt2*y70+lg2*y72+lf2*y76+la2*y84+lr2*y100+lp3*y132-kc2*y68*y208-kt2*y68*y209-kg2*y68*y210-kf2*y68*y211-ka2*y68*y212-kr2*y68*y213-kp3*(1-para_FLIP_pcna)*y68*y214"
+"-lc2*y69+lt2*y71+lg2*y73+lf2*y77+la2*y85+lr2*y101+lp3*y133+kc2*y68*y208-kt2*y69*y209-kg2*y69*y210-kf2*y69*y211-ka2*y69*y212-kr2*y69*y213-kp3*(1-para_FLIP_pcna)*y69*y214"
+"+lc2*y71-lt2*y70+lg2*y74+lf2*y78+la2*y86+lr2*y102+lp3*y134-kc2*y70*y208+kt2*y68*y209-kg2*y70*y210-kf2*y70*y211-ka2*y70*y212-kr2*y70*y213-kp3*(1-para_FLIP_pcna)*y70*y214"
+"-lc2*y71-lt2*y71+lg2*y75+lf2*y79+la2*y87+lr2*y103+lp3*y135+kc2*y70*y208+kt2*y69*y209-kg2*y71*y210-kf2*y71*y211-ka2*y71*y212-kr2*y71*y213-kp3*(1-para_FLIP_pcna)*y71*y214"
+"+lc2*y73+lt2*y74-lg2*y72+lf2*y80+la2*y88+lr2*y104+lp3*y136-kc2*y72*y208-kt2*y72*y209+kg2*y68*y210-kf2*y72*y211-ka2*y72*y212-kr2*y72*y213-kp3*(1-para_FLIP_pcna)*y72*y214"
+"-lc2*y73+lt2*y75-lg2*y73+lf2*y81+la2*y89+lr2*y105+lp3*y137+kc2*y72*y208-kt2*y73*y209+kg2*y69*y210-kf2*y73*y211-ka2*y73*y212-kr2*y73*y213-kp3*(1-para_FLIP_pcna)*y73*y214"
+"+lc2*y75-lt2*y74-lg2*y74+lf2*y82+la2*y90+lr2*y106+lp3*y138-kc2*y74*y208+kt2*y72*y209+kg2*y70*y210-kf2*y74*y211-ka2*y74*y212-kr2*y74*y213-kp3*(1-para_FLIP_pcna)*y74*y214"
+"-lc2*y75-lt2*y75-lg2*y75+lf2*y83+la2*y91+lr2*y107+lp3*y139+kc2*y74*y208+kt2*y73*y209+kg2*y71*y210-kf2*y75*y211-ka2*y75*y212-kr2*y75*y213-kp3*(1-para_FLIP_pcna)*y75*y214"
+"+lc2*y77+lt2*y78+lg2*y80-lf2*y76+la2*y92+lr2*y108+lp3*y140-kc2*y76*y208-kt2*y76*y209-kg2*y76*y210+kf2*y68*y211-ka2*y76*y212-kr2*y76*y213-kp3*(1-para_FLIP_pcna)*y76*y214"
+"-lc2*y77+lt2*y79+lg2*y81-lf2*y77+la2*y93+lr2*y109+lp3*y141+kc2*y76*y208-kt2*y77*y209-kg2*y77*y210+kf2*y69*y211-ka2*y77*y212-kr2*y77*y213-kp3*(1-para_FLIP_pcna)*y77*y214"
+"+lc2*y79-lt2*y78+lg2*y82-lf2*y78+la2*y94+lr2*y110+lp3*y142-kc2*y78*y208+kt2*y76*y209-kg2*y78*y210+kf2*y70*y211-ka2*y78*y212-kr2*y78*y213-kp3*(1-para_FLIP_pcna)*y78*y214"
+"-lc2*y79-lt2*y79+lg2*y83-lf2*y79+la2*y95+lr2*y111+lp3*y143+kc2*y78*y208+kt2*y77*y209-kg2*y79*y210+kf2*y71*y211-ka2*y79*y212-kr2*y79*y213-kp3*(1-para_FLIP_pcna)*y79*y214"
+"+lc2*y81+lt2*y82-lg2*y80-lf2*y80+la2*y96+lr2*y112+lp3*y144-kc2*y80*y208-kt2*y80*y209+kg2*y76*y210+kf2*y72*y211-ka2*y80*y212-kr2*y80*y213-kp3*(1-para_FLIP_pcna)*y80*y214"
+"-lc2*y81+lt2*y83-lg2*y81-lf2*y81+la2*y97+lr2*y113+lp3*y145+kc2*y80*y208-kt2*y81*y209+kg2*y77*y210+kf2*y73*y211-ka2*y81*y212-kr2*y81*y213-kp3*(1-para_FLIP_pcna)*y81*y214"
+"+lc2*y83-lt2*y82-lg2*y82-lf2*y82+la2*y98+lr2*y114+lp3*y146-kc2*y82*y208+kt2*y80*y209+kg2*y78*y210+kf2*y74*y211-ka2*y82*y212-kr2*y82*y213-kp3*(1-para_FLIP_pcna)*y82*y214"
+"-lc2*y83-lt2*y83-lg2*y83-lf2*y83+la2*y99+lr2*y115+lp3*y147+kc2*y82*y208+kt2*y81*y209+kg2*y79*y210+kf2*y75*y211-ka2*y83*y212-kr2*y83*y213-kp3*(1-para_FLIP_pcna)*y83*y214"
+"+lc2*y85+lt2*y86+lg2*y88+lf2*y92-la2*y84+lr2*y116+lp3*y148-kc2*y84*y208-kt2*y84*y209-kg2*y84*y210-kf2*y84*y211+ka2*y68*y212-kr2*y84*y213-kp3*(1-para_FLIP_pcna)*y84*y214"
+"-lc2*y85+lt2*y87+lg2*y89+lf2*y93-la2*y85+lr2*y117+lp3*y149+kc2*y84*y208-kt2*y85*y209-kg2*y85*y210-kf2*y85*y211+ka2*y69*y212-kr2*y85*y213-kp3*(1-para_FLIP_pcna)*y85*y214"
+"+lc2*y87-lt2*y86+lg2*y90+lf2*y94-la2*y86+lr2*y118+lp3*y150-kc2*y86*y208+kt2*y84*y209-kg2*y86*y210-kf2*y86*y211+ka2*y70*y212-kr2*y86*y213-kp3*(1-para_FLIP_pcna)*y86*y214"
+"-lc2*y87-lt2*y87+lg2*y91+lf2*y95-la2*y87+lr2*y119+lp3*y151+kc2*y86*y208+kt2*y85*y209-kg2*y87*y210-kf2*y87*y211+ka2*y71*y212-kr2*y87*y213-kp3*(1-para_FLIP_pcna)*y87*y214"
+"+lc2*y89+lt2*y90-lg2*y88+lf2*y96-la2*y88+lr2*y120+lp3*y152-kc2*y88*y208-kt2*y88*y209+kg2*y84*y210-kf2*y88*y211+ka2*y72*y212-kr2*y88*y213-kp3*(1-para_FLIP_pcna)*y88*y214"
+"-lc2*y89+lt2*y91-lg2*y89+lf2*y97-la2*y89+lr2*y121+lp3*y153+kc2*y88*y208-kt2*y89*y209+kg2*y85*y210-kf2*y89*y211+ka2*y73*y212-kr2*y89*y213-kp3*(1-para_FLIP_pcna)*y89*y214"
+"+lc2*y91-lt2*y90-lg2*y90+lf2*y98-la2*y90+lr2*y122+lp3*y154-kc2*y90*y208+kt2*y88*y209+kg2*y86*y210-kf2*y90*y211+ka2*y74*y212-kr2*y90*y213-kp3*(1-para_FLIP_pcna)*y90*y214"
+"-lc2*y91-lt2*y91-lg2*y91+lf2*y99-la2*y91+lr2*y123+lp3*y155+kc2*y90*y208+kt2*y89*y209+kg2*y87*y210-kf2*y91*y211+ka2*y75*y212-kr2*y91*y213-kp3*(1-para_FLIP_pcna)*y91*y214"
+"+lc2*y93+lt2*y94+lg2*y96-lf2*y92-la2*y92+lr2*y124+lp3*y156-kc2*y92*y208-kt2*y92*y209-kg2*y92*y210+kf2*y84*y211+ka2*y76*y212-kr2*y92*y213-kp3*(1-para_FLIP_pcna)*y92*y214"
+"-lc2*y93+lt2*y95+lg2*y97-lf2*y93-la2*y93+lr2*y125+lp3*y157+kc2*y92*y208-kt2*y93*y209-kg2*y93*y210+kf2*y85*y211+ka2*y77*y212-kr2*y93*y213-kp3*(1-para_FLIP_pcna)*y93*y214"
+"+lc2*y95-lt2*y94+lg2*y98-lf2*y94-la2*y94+lr2*y126+lp3*y158-kc2*y94*y208+kt2*y92*y209-kg2*y94*y210+kf2*y86*y211+ka2*y78*y212-kr2*y94*y213-kp3*(1-para_FLIP_pcna)*y94*y214"
+"-lc2*y95-lt2*y95+lg2*y99-lf2*y95-la2*y95+lr2*y127+lp3*y159+kc2*y94*y208+kt2*y93*y209-kg2*y95*y210+kf2*y87*y211+ka2*y79*y212-kr2*y95*y213-kp3*(1-para_FLIP_pcna)*y95*y214"
+"+lc2*y97+lt2*y98-lg2*y96-lf2*y96-la2*y96+lr2*y128+lp3*y160-kc2*y96*y208-kt2*y96*y209+kg2*y92*y210+kf2*y88*y211+ka2*y80*y212-kr2*y96*y213-kp3*(1-para_FLIP_pcna)*y96*y214"
+"-lc2*y97+lt2*y99-lg2*y97-lf2*y97-la2*y97+lr2*y129+lp3*y161+kc2*y96*y208-kt2*y97*y209+kg2*y93*y210+kf2*y89*y211+ka2*y81*y212-kr2*y97*y213-kp3*(1-para_FLIP_pcna)*y97*y214"
+"+lc2*y99-lt2*y98-lg2*y98-lf2*y98-la2*y98+lr2*y130+lp3*y162-kc2*y98*y208+kt2*y96*y209+kg2*y94*y210+kf2*y90*y211+ka2*y82*y212-kr2*y98*y213-kp3*(1-para_FLIP_pcna)*y98*y214"
+"-lc2*y99-lt2*y99-lg2*y99-lf2*y99-la2*y99+lr2*y131+lp3*y163+kc2*y98*y208+kt2*y97*y209+kg2*y95*y210+kf2*y91*y211+ka2*y83*y212-kr2*y99*y213-kp3*(1-para_FLIP_pcna)*y99*y214"
+"+lc2*y101+lt2*y102+lg2*y104+lf2*y108+la2*y116-lr2*y100+lp3*y164-kc2*y100*y208-kt2*y100*y209-kg2*y100*y210-kf2*y100*y211-ka2*y100*y212+kr2*y68*y213-kp3*(1-para_FLIP_pcna)*y100*y214"
+"-lc2*y101+lt2*y103+lg2*y105+lf2*y109+la2*y117-lr2*y101+lp3*y165+kc2*y100*y208-kt2*y101*y209-kg2*y101*y210-kf2*y101*y211-ka2*y101*y212+kr2*y69*y213-kp3*(1-para_FLIP_pcna)*y101*y214"
+"+lc2*y103-lt2*y102+lg2*y106+lf2*y110+la2*y118-lr2*y102+lp3*y166-kc2*y102*y208+kt2*y100*y209-kg2*y102*y210-kf2*y102*y211-ka2*y102*y212+kr2*y70*y213-kp3*(1-para_FLIP_pcna)*y102*y214"
+"-lc2*y103-lt2*y103+lg2*y107+lf2*y111+la2*y119-lr2*y103+lp3*y167+kc2*y102*y208+kt2*y101*y209-kg2*y103*y210-kf2*y103*y211-ka2*y103*y212+kr2*y71*y213-kp3*(1-para_FLIP_pcna)*y103*y214"
+"+lc2*y105+lt2*y106-lg2*y104+lf2*y112+la2*y120-lr2*y104+lp3*y168-kc2*y104*y208-kt2*y104*y209+kg2*y100*y210-kf2*y104*y211-ka2*y104*y212+kr2*y72*y213-kp3*(1-para_FLIP_pcna)*y104*y214"
+"-lc2*y105+lt2*y107-lg2*y105+lf2*y113+la2*y121-lr2*y105+lp3*y169+kc2*y104*y208-kt2*y105*y209+kg2*y101*y210-kf2*y105*y211-ka2*y105*y212+kr2*y73*y213-kp3*(1-para_FLIP_pcna)*y105*y214"
+"+lc2*y107-lt2*y106-lg2*y106+lf2*y114+la2*y122-lr2*y106+lp3*y170-kc2*y106*y208+kt2*y104*y209+kg2*y102*y210-kf2*y106*y211-ka2*y106*y212+kr2*y74*y213-kp3*(1-para_FLIP_pcna)*y106*y214"
+"-lc2*y107-lt2*y107-lg2*y107+lf2*y115+la2*y123-lr2*y107+lp3*y171+kc2*y106*y208+kt2*y105*y209+kg2*y103*y210-kf2*y107*y211-ka2*y107*y212+kr2*y75*y213-kp3*(1-para_FLIP_pcna)*y107*y214"
+"+lc2*y109+lt2*y110+lg2*y112-lf2*y108+la2*y124-lr2*y108+lp3*y172-kc2*y108*y208-kt2*y108*y209-kg2*y108*y210+kf2*y100*y211-ka2*y108*y212+kr2*y76*y213-kp3*(1-para_FLIP_pcna)*y108*y214"
+"-lc2*y109+lt2*y111+lg2*y113-lf2*y109+la2*y125-lr2*y109+lp3*y173+kc2*y108*y208-kt2*y109*y209-kg2*y109*y210+kf2*y101*y211-ka2*y109*y212+kr2*y77*y213-kp3*(1-para_FLIP_pcna)*y109*y214"
+"+lc2*y111-lt2*y110+lg2*y114-lf2*y110+la2*y126-lr2*y110+lp3*y174-kc2*y110*y208+kt2*y108*y209-kg2*y110*y210+kf2*y102*y211-ka2*y110*y212+kr2*y78*y213-kp3*(1-para_FLIP_pcna)*y110*y214"
+"-lc2*y111-lt2*y111+lg2*y115-lf2*y111+la2*y127-lr2*y111+lp3*y175+kc2*y110*y208+kt2*y109*y209-kg2*y111*y210+kf2*y103*y211-ka2*y111*y212+kr2*y79*y213-kp3*(1-para_FLIP_pcna)*y111*y214"
+"+lc2*y113+lt2*y114-lg2*y112-lf2*y112+la2*y128-lr2*y112+lp3*y176-kc2*y112*y208-kt2*y112*y209+kg2*y108*y210+kf2*y104*y211-ka2*y112*y212+kr2*y80*y213-kp3*(1-para_FLIP_pcna)*y112*y214"
+"-lc2*y113+lt2*y115-lg2*y113-lf2*y113+la2*y129-lr2*y113+lp3*y177+kc2*y112*y208-kt2*y113*y209+kg2*y109*y210+kf2*y105*y211-ka2*y113*y212+kr2*y81*y213-kp3*(1-para_FLIP_pcna)*y113*y214"
+"+lc2*y115-lt2*y114-lg2*y114-lf2*y114+la2*y130-lr2*y114+lp3*y178-kc2*y114*y208+kt2*y112*y209+kg2*y110*y210+kf2*y106*y211-ka2*y114*y212+kr2*y82*y213-kp3*(1-para_FLIP_pcna)*y114*y214"
+"-lc2*y115-lt2*y115-lg2*y115-lf2*y115+la2*y131-lr2*y115+lp3*y179+kc2*y114*y208+kt2*y113*y209+kg2*y111*y210+kf2*y107*y211-ka2*y115*y212+kr2*y83*y213-kp3*(1-para_FLIP_pcna)*y115*y214"
+"+lc2*y117+lt2*y118+lg2*y120+lf2*y124-la2*y116-lr2*y116+lp3*y180-kc2*y116*y208-kt2*y116*y209-kg2*y116*y210-kf2*y116*y211+ka2*y100*y212+kr2*y84*y213-kp3*(1-para_FLIP_pcna)*y116*y214"
+"-lc2*y117+lt2*y119+lg2*y121+lf2*y125-la2*y117-lr2*y117+lp3*y181+kc2*y116*y208-kt2*y117*y209-kg2*y117*y210-kf2*y117*y211+ka2*y101*y212+kr2*y85*y213-kp3*(1-para_FLIP_pcna)*y117*y214"
+"+lc2*y119-lt2*y118+lg2*y122+lf2*y126-la2*y118-lr2*y118+lp3*y182-kc2*y118*y208+kt2*y116*y209-kg2*y118*y210-kf2*y118*y211+ka2*y102*y212+kr2*y86*y213-kp3*(1-para_FLIP_pcna)*y118*y214"
+"-lc2*y119-lt2*y119+lg2*y123+lf2*y127-la2*y119-lr2*y119+lp3*y183+kc2*y118*y208+kt2*y117*y209-kg2*y119*y210-kf2*y119*y211+ka2*y103*y212+kr2*y87*y213-kp3*(1-para_FLIP_pcna)*y119*y214"
+"+lc2*y121+lt2*y122-lg2*y120+lf2*y128-la2*y120-lr2*y120+lp3*y184-kc2*y120*y208-kt2*y120*y209+kg2*y116*y210-kf2*y120*y211+ka2*y104*y212+kr2*y88*y213-kp3*(1-para_FLIP_pcna)*y120*y214"
+"-lc2*y121+lt2*y123-lg2*y121+lf2*y129-la2*y121-lr2*y121+lp3*y185+kc2*y120*y208-kt2*y121*y209+kg2*y117*y210-kf2*y121*y211+ka2*y105*y212+kr2*y89*y213-kp3*(1-para_FLIP_pcna)*y121*y214"
+"+lc2*y123-lt2*y122-lg2*y122+lf2*y130-la2*y122-lr2*y122+lp3*y186-kc2*y122*y208+kt2*y120*y209+kg2*y118*y210-kf2*y122*y211+ka2*y106*y212+kr2*y90*y213-kp3*(1-para_FLIP_pcna)*y122*y214"
+"-lc2*y123-lt2*y123-lg2*y123+lf2*y131-la2*y123-lr2*y123+lp3*y187+kc2*y122*y208+kt2*y121*y209+kg2*y119*y210-kf2*y123*y211+ka2*y107*y212+kr2*y91*y213-kp3*(1-para_FLIP_pcna)*y123*y214"
+"+lc2*y125+lt2*y126+lg2*y128-lf2*y124-la2*y124-lr2*y124+lp3*y188-kc2*y124*y208-kt2*y124*y209-kg2*y124*y210+kf2*y116*y211+ka2*y108*y212+kr2*y92*y213-kp3*(1-para_FLIP_pcna)*y124*y214"
+"-lc2*y125+lt2*y127+lg2*y129-lf2*y125-la2*y125-lr2*y125+lp3*y189+kc2*y124*y208-kt2*y125*y209-kg2*y125*y210+kf2*y117*y211+ka2*y109*y212+kr2*y93*y213-kp3*(1-para_FLIP_pcna)*y125*y214"
+"+lc2*y127-lt2*y126+lg2*y130-lf2*y126-la2*y126-lr2*y126+lp3*y190-kc2*y126*y208+kt2*y124*y209-kg2*y126*y210+kf2*y118*y211+ka2*y110*y212+kr2*y94*y213-kp3*(1-para_FLIP_pcna)*y126*y214"
+"-lc2*y127-lt2*y127+lg2*y131-lf2*y127-la2*y127-lr2*y127+lp3*y191+kc2*y126*y208+kt2*y125*y209-kg2*y127*y210+kf2*y119*y211+ka2*y111*y212+kr2*y95*y213-kp3*(1-para_FLIP_pcna)*y127*y214"
+"+lc2*y129+lt2*y130-lg2*y128-lf2*y128-la2*y128-lr2*y128+lp3*y192-kc2*y128*y208-kt2*y128*y209+kg2*y124*y210+kf2*y120*y211+ka2*y112*y212+kr2*y96*y213-kp3*(1-para_FLIP_pcna)*y128*y214"
+"-lc2*y129+lt2*y131-lg2*y129-lf2*y129-la2*y129-lr2*y129+lp3*y193+kc2*y128*y208-kt2*y129*y209+kg2*y125*y210+kf2*y121*y211+ka2*y113*y212+kr2*y97*y213-kp3*(1-para_FLIP_pcna)*y129*y214"
+"+lc2*y131-lt2*y130-lg2*y130-lf2*y130-la2*y130-lr2*y130+lp3*y194-kc2*y130*y208+kt2*y128*y209+kg2*y126*y210+kf2*y122*y211+ka2*y114*y212+kr2*y98*y213-kp3*(1-para_FLIP_pcna)*y130*y214+kt2*y64*y209+kg2*y62*y210+kf2*y58*y211+ka2*y50*y212+kr2*y34*y213"
+"-lc2*y131-lt2*y131-lg2*y131-lf2*y131-la2*y131-lr2*y131+lp3*y195+kc2*y130*y208+kt2*y129*y209+kg2*y127*y210+kf2*y123*y211+ka2*y115*y212+kr2*y99*y213-kp3*(1-para_FLIP_pcna)*y131*y214"
+"+lc2*y133+lt2*y134+lg2*y136+lf2*y140+la2*y148+lr2*y164-lp3*y132-kc2*y132*y208-kt2*y132*y209-kg2*y132*y210-kf2*y132*y211-ka2*y132*y212-kr2*y132*y213+kp3*(1-para_FLIP_pcna)*y68*y214"
+"-lc2*y133+lt2*y135+lg2*y137+lf2*y141+la2*y149+lr2*y165-lp3*y133+kc2*y132*y208-kt2*y133*y209-kg2*y133*y210-kf2*y133*y211-ka2*y133*y212-kr2*y133*y213+kp3*(1-para_FLIP_pcna)*y69*y214"
+"+lc2*y135-lt2*y134+lg2*y138+lf2*y142+la2*y150+lr2*y166-lp3*y134-kc2*y134*y208+kt2*y132*y209-kg2*y134*y210-kf2*y134*y211-ka2*y134*y212-kr2*y134*y213+kp3*(1-para_FLIP_pcna)*y70*y214"
+"-lc2*y135-lt2*y135+lg2*y139+lf2*y143+la2*y151+lr2*y167-lp3*y135+kc2*y134*y208+kt2*y133*y209-kg2*y135*y210-kf2*y135*y211-ka2*y135*y212-kr2*y135*y213+kp3*(1-para_FLIP_pcna)*y71*y214"
+"+lc2*y137+lt2*y138-lg2*y136+lf2*y144+la2*y152+lr2*y168-lp3*y136-kc2*y136*y208-kt2*y136*y209+kg2*y132*y210-kf2*y136*y211-ka2*y136*y212-kr2*y136*y213+kp3*(1-para_FLIP_pcna)*y72*y214"
+"-lc2*y137+lt2*y139-lg2*y137+lf2*y145+la2*y153+lr2*y169-lp3*y137+kc2*y136*y208-kt2*y137*y209+kg2*y133*y210-kf2*y137*y211-ka2*y137*y212-kr2*y137*y213+kp3*(1-para_FLIP_pcna)*y73*y214"
+"+lc2*y139-lt2*y138-lg2*y138+lf2*y146+la2*y154+lr2*y170-lp3*y138-kc2*y138*y208+kt2*y136*y209+kg2*y134*y210-kf2*y138*y211-ka2*y138*y212-kr2*y138*y213+kp3*(1-para_FLIP_pcna)*y74*y214"
+"-lc2*y139-lt2*y139-lg2*y139+lf2*y147+la2*y155+lr2*y171-lp3*y139+kc2*y138*y208+kt2*y137*y209+kg2*y135*y210-kf2*y139*y211-ka2*y139*y212-kr2*y139*y213+kp3*(1-para_FLIP_pcna)*y75*y214"
+"+lc2*y141+lt2*y142+lg2*y144-lf2*y140+la2*y156+lr2*y172-lp3*y140-kc2*y140*y208-kt2*y140*y209-kg2*y140*y210+kf2*y132*y211-ka2*y140*y212-kr2*y140*y213+kp3*(1-para_FLIP_pcna)*y76*y214"
+"-lc2*y141+lt2*y143+lg2*y145-lf2*y141+la2*y157+lr2*y173-lp3*y141+kc2*y140*y208-kt2*y141*y209-kg2*y141*y210+kf2*y133*y211-ka2*y141*y212-kr2*y141*y213+kp3*(1-para_FLIP_pcna)*y77*y214"
+"+lc2*y143-lt2*y142+lg2*y146-lf2*y142+la2*y158+lr2*y174-lp3*y142-kc2*y142*y208+kt2*y140*y209-kg2*y142*y210+kf2*y134*y211-ka2*y142*y212-kr2*y142*y213+kp3*(1-para_FLIP_pcna)*y78*y214"
+"-lc2*y143-lt2*y143+lg2*y147-lf2*y143+la2*y159+lr2*y175-lp3*y143+kc2*y142*y208+kt2*y141*y209-kg2*y143*y210+kf2*y135*y211-ka2*y143*y212-kr2*y143*y213+kp3*(1-para_FLIP_pcna)*y79*y214"
+"+lc2*y145+lt2*y146-lg2*y144-lf2*y144+la2*y160+lr2*y176-lp3*y144-kc2*y144*y208-kt2*y144*y209+kg2*y140*y210+kf2*y136*y211-ka2*y144*y212-kr2*y144*y213+kp3*(1-para_FLIP_pcna)*y80*y214"
+"-lc2*y145+lt2*y147-lg2*y145-lf2*y145+la2*y161+lr2*y177-lp3*y145+kc2*y144*y208-kt2*y145*y209+kg2*y141*y210+kf2*y137*y211-ka2*y145*y212-kr2*y145*y213+kp3*(1-para_FLIP_pcna)*y81*y214"
+"+lc2*y147-lt2*y146-lg2*y146-lf2*y146+la2*y162+lr2*y178-lp3*y146-kc2*y146*y208+kt2*y144*y209+kg2*y142*y210+kf2*y138*y211-ka2*y146*y212-kr2*y146*y213+kp3*(1-para_FLIP_pcna)*y82*y214"
+"-lc2*y147-lt2*y147-lg2*y147-lf2*y147+la2*y163+lr2*y179-lp3*y147+kc2*y146*y208+kt2*y145*y209+kg2*y143*y210+kf2*y139*y211-ka2*y147*y212-kr2*y147*y213+kp3*(1-para_FLIP_pcna)*y83*y214"
+"+lc2*y149+lt2*y150+lg2*y152+lf2*y156-la2*y148+lr2*y180-lp3*y148-kc2*y148*y208-kt2*y148*y209-kg2*y148*y210-kf2*y148*y211+ka2*y132*y212-kr2*y148*y213+kp3*(1-para_FLIP_pcna)*y84*y214"
+"-lc2*y149+lt2*y151+lg2*y153+lf2*y157-la2*y149+lr2*y181-lp3*y149+kc2*y148*y208-kt2*y149*y209-kg2*y149*y210-kf2*y149*y211+ka2*y133*y212-kr2*y149*y213+kp3*(1-para_FLIP_pcna)*y85*y214"
+"+lc2*y151-lt2*y150+lg2*y154+lf2*y158-la2*y150+lr2*y182-lp3*y150-kc2*y150*y208+kt2*y148*y209-kg2*y150*y210-kf2*y150*y211+ka2*y134*y212-kr2*y150*y213+kp3*(1-para_FLIP_pcna)*y86*y214"
+"-lc2*y151-lt2*y151+lg2*y155+lf2*y159-la2*y151+lr2*y183-lp3*y151+kc2*y150*y208+kt2*y149*y209-kg2*y151*y210-kf2*y151*y211+ka2*y135*y212-kr2*y151*y213+kp3*(1-para_FLIP_pcna)*y87*y214"
+"+lc2*y153+lt2*y154-lg2*y152+lf2*y160-la2*y152+lr2*y184-lp3*y152-kc2*y152*y208-kt2*y152*y209+kg2*y148*y210-kf2*y152*y211+ka2*y136*y212-kr2*y152*y213+kp3*(1-para_FLIP_pcna)*y88*y214"
+"-lc2*y153+lt2*y155-lg2*y153+lf2*y161-la2*y153+lr2*y185-lp3*y153+kc2*y152*y208-kt2*y153*y209+kg2*y149*y210-kf2*y153*y211+ka2*y137*y212-kr2*y153*y213+kp3*(1-para_FLIP_pcna)*y89*y214"
+"+lc2*y155-lt2*y154-lg2*y154+lf2*y162-la2*y154+lr2*y186-lp3*y154-kc2*y154*y208+kt2*y152*y209+kg2*y150*y210-kf2*y154*y211+ka2*y138*y212-kr2*y154*y213+kp3*(1-para_FLIP_pcna)*y90*y214"
+"-lc2*y155-lt2*y155-lg2*y155+lf2*y163-la2*y155+lr2*y187-lp3*y155+kc2*y154*y208+kt2*y153*y209+kg2*y151*y210-kf2*y155*y211+ka2*y139*y212-kr2*y155*y213+kp3*(1-para_FLIP_pcna)*y91*y214"
+"+lc2*y157+lt2*y158+lg2*y160-lf2*y156-la2*y156+lr2*y188-lp3*y156-kc2*y156*y208-kt2*y156*y209-kg2*y156*y210+kf2*y148*y211+ka2*y140*y212-kr2*y156*y213+kp3*(1-para_FLIP_pcna)*y92*y214"
+"-lc2*y157+lt2*y159+lg2*y161-lf2*y157-la2*y157+lr2*y189-lp3*y157+kc2*y156*y208-kt2*y157*y209-kg2*y157*y210+kf2*y149*y211+ka2*y141*y212-kr2*y157*y213+kp3*(1-para_FLIP_pcna)*y93*y214"
+"+lc2*y159-lt2*y158+lg2*y162-lf2*y158-la2*y158+lr2*y190-lp3*y158-kc2*y158*y208+kt2*y156*y209-kg2*y158*y210+kf2*y150*y211+ka2*y142*y212-kr2*y158*y213+kp3*(1-para_FLIP_pcna)*y94*y214"
+"-lc2*y159-lt2*y159+lg2*y163-lf2*y159-la2*y159+lr2*y191-lp3*y159+kc2*y158*y208+kt2*y157*y209-kg2*y159*y210+kf2*y151*y211+ka2*y143*y212-kr2*y159*y213+kp3*(1-para_FLIP_pcna)*y95*y214"
+"+lc2*y161+lt2*y162-lg2*y160-lf2*y160-la2*y160+lr2*y192-lp3*y160-kc2*y160*y208-kt2*y160*y209+kg2*y156*y210+kf2*y152*y211+ka2*y144*y212-kr2*y160*y213+kp3*(1-para_FLIP_pcna)*y96*y214"
+"-lc2*y161+lt2*y163-lg2*y161-lf2*y161-la2*y161+lr2*y193-lp3*y161+kc2*y160*y208-kt2*y161*y209+kg2*y157*y210+kf2*y153*y211+ka2*y145*y212-kr2*y161*y213+kp3*(1-para_FLIP_pcna)*y97*y214"
+"+lc2*y163-lt2*y162-lg2*y162-lf2*y162-la2*y162+lr2*y194-lp3*y162-kc2*y162*y208+kt2*y160*y209+kg2*y158*y210+kf2*y154*y211+ka2*y146*y212-kr2*y162*y213+kp3*(1-para_FLIP_pcna)*y98*y214"
+"-lc2*y163-lt2*y163-lg2*y163-lf2*y163-la2*y163+lr2*y195-lp3*y163+kc2*y162*y208+kt2*y161*y209+kg2*y159*y210+kf2*y155*y211+ka2*y147*y212-kr2*y163*y213+kp3*(1-para_FLIP_pcna)*y99*y214"
+"+lc2*y165+lt2*y166+lg2*y168+lf2*y172+la2*y180-lr2*y164-lp3*y164-kc2*y164*y208-kt2*y164*y209-kg2*y164*y210-kf2*y164*y211-ka2*y164*y212+kr2*y132*y213+kp3*(1-para_FLIP_pcna)*y100*y214"
+"-lc2*y165+lt2*y167+lg2*y169+lf2*y173+la2*y181-lr2*y165-lp3*y165+kc2*y164*y208-kt2*y165*y209-kg2*y165*y210-kf2*y165*y211-ka2*y165*y212+kr2*y133*y213+kp3*(1-para_FLIP_pcna)*y101*y214"
+"+lc2*y167-lt2*y166+lg2*y170+lf2*y174+la2*y182-lr2*y166-lp3*y166-kc2*y166*y208+kt2*y164*y209-kg2*y166*y210-kf2*y166*y211-ka2*y166*y212+kr2*y134*y213+kp3*(1-para_FLIP_pcna)*y102*y214"
+"-lc2*y167-lt2*y167+lg2*y171+lf2*y175+la2*y183-lr2*y167-lp3*y167+kc2*y166*y208+kt2*y165*y209-kg2*y167*y210-kf2*y167*y211-ka2*y167*y212+kr2*y135*y213+kp3*(1-para_FLIP_pcna)*y103*y214"
+"+lc2*y169+lt2*y170-lg2*y168+lf2*y176+la2*y184-lr2*y168-lp3*y168-kc2*y168*y208-kt2*y168*y209+kg2*y164*y210-kf2*y168*y211-ka2*y168*y212+kr2*y136*y213+kp3*(1-para_FLIP_pcna)*y104*y214"
+"-lc2*y169+lt2*y171-lg2*y169+lf2*y177+la2*y185-lr2*y169-lp3*y169+kc2*y168*y208-kt2*y169*y209+kg2*y165*y210-kf2*y169*y211-ka2*y169*y212+kr2*y137*y213+kp3*(1-para_FLIP_pcna)*y105*y214"
+"+lc2*y171-lt2*y170-lg2*y170+lf2*y178+la2*y186-lr2*y170-lp3*y170-kc2*y170*y208+kt2*y168*y209+kg2*y166*y210-kf2*y170*y211-ka2*y170*y212+kr2*y138*y213+kp3*(1-para_FLIP_pcna)*y106*y214"
+"-lc2*y171-lt2*y171-lg2*y171+lf2*y179+la2*y187-lr2*y171-lp3*y171+kc2*y170*y208+kt2*y169*y209+kg2*y167*y210-kf2*y171*y211-ka2*y171*y212+kr2*y139*y213+kp3*(1-para_FLIP_pcna)*y107*y214"
+"+lc2*y173+lt2*y174+lg2*y176-lf2*y172+la2*y188-lr2*y172-lp3*y172-kc2*y172*y208-kt2*y172*y209-kg2*y172*y210+kf2*y164*y211-ka2*y172*y212+kr2*y140*y213+kp3*(1-para_FLIP_pcna)*y108*y214"
+"-lc2*y173+lt2*y175+lg2*y177-lf2*y173+la2*y189-lr2*y173-lp3*y173+kc2*y172*y208-kt2*y173*y209-kg2*y173*y210+kf2*y165*y211-ka2*y173*y212+kr2*y141*y213+kp3*(1-para_FLIP_pcna)*y109*y214"
+"+lc2*y175-lt2*y174+lg2*y178-lf2*y174+la2*y190-lr2*y174-lp3*y174-kc2*y174*y208+kt2*y172*y209-kg2*y174*y210+kf2*y166*y211-ka2*y174*y212+kr2*y142*y213+kp3*(1-para_FLIP_pcna)*y110*y214"
+"-lc2*y175-lt2*y175+lg2*y179-lf2*y175+la2*y191-lr2*y175-lp3*y175+kc2*y174*y208+kt2*y173*y209-kg2*y175*y210+kf2*y167*y211-ka2*y175*y212+kr2*y143*y213+kp3*(1-para_FLIP_pcna)*y111*y214"
+"+lc2*y177+lt2*y178-lg2*y176-lf2*y176+la2*y192-lr2*y176-lp3*y176-kc2*y176*y208-kt2*y176*y209+kg2*y172*y210+kf2*y168*y211-ka2*y176*y212+kr2*y144*y213+kp3*(1-para_FLIP_pcna)*y112*y214"
+"-lc2*y177+lt2*y179-lg2*y177-lf2*y177+la2*y193-lr2*y177-lp3*y177+kc2*y176*y208-kt2*y177*y209+kg2*y173*y210+kf2*y169*y211-ka2*y177*y212+kr2*y145*y213+kp3*(1-para_FLIP_pcna)*y113*y214"
+"+lc2*y179-lt2*y178-lg2*y178-lf2*y178+la2*y194-lr2*y178-lp3*y178-kc2*y178*y208+kt2*y176*y209+kg2*y174*y210+kf2*y170*y211-ka2*y178*y212+kr2*y146*y213+kp3*(1-para_FLIP_pcna)*y114*y214"
+"-lc2*y179-lt2*y179-lg2*y179-lf2*y179+la2*y195-lr2*y179-lp3*y179+kc2*y178*y208+kt2*y177*y209+kg2*y175*y210+kf2*y171*y211-ka2*y179*y212+kr2*y147*y213+kp3*(1-para_FLIP_pcna)*y115*y214"
+"+lc2*y181+lt2*y182+lg2*y184+lf2*y188-la2*y180-lr2*y180-lp3*y180-kc2*y180*y208-kt2*y180*y209-kg2*y180*y210-kf2*y180*y211+ka2*y164*y212+kr2*y148*y213+kp3*(1-para_FLIP_pcna)*y116*y214-gammaPar*y180"
+"-lc2*y181+lt2*y183+lg2*y185+lf2*y189-la2*y181-lr2*y181-lp3*y181+kc2*y180*y208-kt2*y181*y209-kg2*y181*y210-kf2*y181*y211+ka2*y165*y212+kr2*y149*y213+kp3*(1-para_FLIP_pcna)*y117*y214"
+"+lc2*y183-lt2*y182+lg2*y186+lf2*y190-la2*y182-lr2*y182-lp3*y182-kc2*y182*y208+kt2*y180*y209-kg2*y182*y210-kf2*y182*y211+ka2*y166*y212+kr2*y150*y213+kp3*(1-para_FLIP_pcna)*y118*y214"
+"-lc2*y183-lt2*y183+lg2*y187+lf2*y191-la2*y183-lr2*y183-lp3*y183+kc2*y182*y208+kt2*y181*y209-kg2*y183*y210-kf2*y183*y211+ka2*y167*y212+kr2*y151*y213+kp3*(1-para_FLIP_pcna)*y119*y214"
+"+lc2*y185+lt2*y186-lg2*y184+lf2*y192-la2*y184-lr2*y184-lp3*y184-kc2*y184*y208-kt2*y184*y209+kg2*y180*y210-kf2*y184*y211+ka2*y168*y212+kr2*y152*y213+kp3*(1-para_FLIP_pcna)*y120*y214"
+"-lc2*y185+lt2*y187-lg2*y185+lf2*y193-la2*y185-lr2*y185-lp3*y185+kc2*y184*y208-kt2*y185*y209+kg2*y181*y210-kf2*y185*y211+ka2*y169*y212+kr2*y153*y213+kp3*(1-para_FLIP_pcna)*y121*y214"
+"+lc2*y187-lt2*y186-lg2*y186+lf2*y194-la2*y186-lr2*y186-lp3*y186-kc2*y186*y208+kt2*y184*y209+kg2*y182*y210-kf2*y186*y211+ka2*y170*y212+kr2*y154*y213+kp3*(1-para_FLIP_pcna)*y122*y214"
+"-lc2*y187-lt2*y187-lg2*y187+lf2*y195-la2*y187-lr2*y187-lp3*y187+kc2*y186*y208+kt2*y185*y209+kg2*y183*y210-kf2*y187*y211+ka2*y171*y212+kr2*y155*y213+kp3*(1-para_FLIP_pcna)*y123*y214"
+"+lc2*y189+lt2*y190+lg2*y192-lf2*y188-la2*y188-lr2*y188-lp3*y188-kc2*y188*y208-kt2*y188*y209-kg2*y188*y210+kf2*y180*y211+ka2*y172*y212+kr2*y156*y213+kp3*(1-para_FLIP_pcna)*y124*y214"
+"-lc2*y189+lt2*y191+lg2*y193-lf2*y189-la2*y189-lr2*y189-lp3*y189+kc2*y188*y208-kt2*y189*y209-kg2*y189*y210+kf2*y181*y211+ka2*y173*y212+kr2*y157*y213+kp3*(1-para_FLIP_pcna)*y125*y214"
+"+lc2*y191-lt2*y190+lg2*y194-lf2*y190-la2*y190-lr2*y190-lp3*y190-kc2*y190*y208+kt2*y188*y209-kg2*y190*y210+kf2*y182*y211+ka2*y174*y212+kr2*y158*y213+kp3*(1-para_FLIP_pcna)*y126*y214"
+"-lc2*y191-lt2*y191+lg2*y195-lf2*y191-la2*y191-lr2*y191-lp3*y191+kc2*y190*y208+kt2*y189*y209-kg2*y191*y210+kf2*y183*y211+ka2*y175*y212+kr2*y159*y213+kp3*(1-para_FLIP_pcna)*y127*y214"
+"+lc2*y193+lt2*y194-lg2*y192-lf2*y192-la2*y192-lr2*y192-lp3*y192-kc2*y192*y208-kt2*y192*y209+kg2*y188*y210+kf2*y184*y211+ka2*y176*y212+kr2*y160*y213+kp3*(1-para_FLIP_pcna)*y128*y214"
+"-lc2*y193+lt2*y195-lg2*y193-lf2*y193-la2*y193-lr2*y193-lp3*y193+kc2*y192*y208-kt2*y193*y209+kg2*y189*y210+kf2*y185*y211+ka2*y177*y212+kr2*y161*y213+kp3*(1-para_FLIP_pcna)*y129*y214"
+"+lc2*y195-lt2*y194-lg2*y194-lf2*y194-la2*y194-lr2*y194-lp3*y194-kc2*y194*y208+kt2*y192*y209+kg2*y190*y210+kf2*y186*y211+ka2*y178*y212+kr2*y162*y213+kp3*(1-para_FLIP_pcna)*y130*y214"
+"-lc2*y195-lt2*y195-lg2*y195-lf2*y195-la2*y195-lr2*y195-lp3*y195+kc2*y194*y208+kt2*y193*y209+kg2*y191*y210+kf2*y187*y211+ka2*y179*y212+kr2*y163*y213+kp3*(1-para_FLIP_pcna)*y131*y214"
+
+
+
+
+"+la4*y197+lr4*y198+lp4*y200-ka4*y196*y212-kr4*y196*y213-kp4*(1-para_FLIP_pcna)*y196*y214"
+"-la4*y197+lr4*y199+lp4*y201+ka4*y196*y212-kr4*y197*y213-kp4*(1-para_FLIP_pcna)*y197*y214"
+"+la4*y199-lr4*y198+lp4*y202-ka4*y198*y212+kr4*y196*y213-kp4*(1-para_FLIP_pcna)*y198*y214"
+"-la4*y199-lr4*y199+lp4*y203+ka4*y198*y212+kr4*y197*y213-kp4*(1-para_FLIP_pcna)*y199*y214"
+"+la4*y201+lr4*y202-lp4*y200-ka4*y200*y212-kr4*y200*y213+kp4*(1-para_FLIP_pcna)*y196*y214"
+"-la4*y201+lr4*y203-lp4*y201+ka4*y200*y212-kr4*y201*y213+kp4*(1-para_FLIP_pcna)*y197*y214"
+"+la4*y203-lr4*y202-lp4*y202-ka4*y202*y212+kr4*y200*y213+kp4*(1-para_FLIP_pcna)*y198*y214-delta*y202"
+"-la4*y203-lr4*y203-lp4*y203+ka4*y202*y212+kr4*y201*y213+kp4*(1-para_FLIP_pcna)*y199*y214+gammaPar*y180"
+
+"+lr5*y205+lp5*y206-kr5*y204*y213-kp5*(1-para_FLIP_pcna)*y204*y214"
+"-lr5*y205+lp5*y207+kr5*y204*y213-kp5*(1-para_FLIP_pcna)*y205*y214"
+"+lr5*y207-lp5*y206-kr5*y206*y213+kp5*(1-para_FLIP_pcna)*y204*y214"
+"-lr5*y207-lp5*y207+kr5*y206*y213+kp5*(1-para_FLIP_pcna)*y205*y214+delta*y202"
+
+
+
+"0.1*(+lc1*y2-kc1*y1*y208+lc2*y5+lc2*y7+lc2*y9+lc2*y11+lc2*y13+lc2*y15+lc2*y17+lc2*y19+lc2*y21+lc2*y23+lc2*y25+lc2*y27+lc2*y29+lc2*y31+lc2*y33+lc2*y35+lc2*y37+lc2*y39+lc2*y41+lc2*y43+lc2*y45+lc2*y47+lc2*y49+lc2*y51+lc2*y53+lc2*y55+lc2*y57+lc2*y59+lc2*y61+lc2*y63+lc2*y65+lc2*y67-kc2*y4*y208-kc2*y6*y208-kc2*y8*y208-kc2*y10*y208-kc2*y12*y208-kc2*y14*y208-kc2*y16*y208-kc2*y18*y208-kc2*y20*y208-kc2*y22*y208-kc2*y24*y208-kc2*y26*y208-kc2*y28*y208-kc2*y30*y208-kc2*y32*y208-kc2*y34*y208-kc2*y36*y208-kc2*y38*y208-kc2*y40*y208-kc2*y42*y208-kc2*y44*y208-kc2*y46*y208-kc2*y48*y208-kc2*y50*y208-kc2*y52*y208-kc2*y54*y208-kc2*y56*y208-kc2*y58*y208-kc2*y60*y208-kc2*y62*y208-kc2*y64*y208+lc2*y69+lc2*y71+lc2*y73+lc2*y75+lc2*y77+lc2*y79+lc2*y81+lc2*y83+lc2*y85+lc2*y87+lc2*y89+lc2*y91+lc2*y93+lc2*y95+lc2*y97+lc2*y99+lc2*y101+lc2*y103+lc2*y105+lc2*y107+lc2*y109+lc2*y111+lc2*y113+lc2*y115+lc2*y117+lc2*y119+lc2*y121+lc2*y123+lc2*y125+lc2*y127+lc2*y129+lc2*y131+lc2*y133+lc2*y135+lc2*y137+lc2*y139+lc2*y141+lc2*y143+lc2*y145+lc2*y147+lc2*y149+lc2*y151+lc2*y153+lc2*y155+lc2*y157+lc2*y159+lc2*y161+lc2*y163+lc2*y165+lc2*y167+lc2*y169+lc2*y171+lc2*y173+lc2*y175+lc2*y177+lc2*y179+lc2*y181+lc2*y183+lc2*y185+lc2*y187+lc2*y189+lc2*y191+lc2*y193+lc2*y195-kc2*y68*y208-kc2*y70*y208-kc2*y72*y208-kc2*y74*y208-kc2*y76*y208-kc2*y78*y208-kc2*y80*y208-kc2*y82*y208-kc2*y84*y208-kc2*y86*y208-kc2*y88*y208-kc2*y90*y208-kc2*y92*y208-kc2*y94*y208-kc2*y96*y208-kc2*y98*y208-kc2*y100*y208-kc2*y102*y208-kc2*y104*y208-kc2*y106*y208-kc2*y108*y208-kc2*y110*y208-kc2*y112*y208-kc2*y114*y208-kc2*y116*y208-kc2*y118*y208-kc2*y120*y208-kc2*y122*y208-kc2*y124*y208-kc2*y126*y208-kc2*y128*y208-kc2*y130*y208-kc2*y132*y208-kc2*y134*y208-kc2*y136*y208-kc2*y138*y208-kc2*y140*y208-kc2*y142*y208-kc2*y144*y208-kc2*y146*y208-kc2*y148*y208-kc2*y150*y208-kc2*y152*y208-kc2*y154*y208-kc2*y156*y208-kc2*y158*y208-kc2*y160*y208-kc2*y162*y208-kc2*y164*y208-kc2*y166*y208-kc2*y168*y208-kc2*y170*y208-kc2*y172*y208-kc2*y174*y208-kc2*y176*y208-kc2*y178*y208-kc2*y180*y208-kc2*y182*y208-kc2*y184*y208-kc2*y186*y208-kc2*y188*y208-kc2*y190*y208-kc2*y192*y208-kc2*y194*y208)"
+"0.1*(+lt2*y3-kt1*y2*y209+lt2*y6+lt2*y7+lt2*y10+lt2*y11+lt2*y14+lt2*y15+lt2*y18+lt2*y19+lt2*y22+lt2*y23+lt2*y26+lt2*y27+lt2*y30+lt2*y31+lt2*y34+lt2*y35+lt2*y38+lt2*y39+lt2*y42+lt2*y43+lt2*y46+lt2*y47+lt2*y50+lt2*y51+lt2*y54+lt2*y55+lt2*y58+lt2*y59+lt2*y62+lt2*y63+lt2*y67-kt2*y4*y209-kt2*y5*y209-kt2*y8*y209-kt2*y9*y209-kt2*y12*y209-kt2*y13*y209-kt2*y16*y209-kt2*y17*y209-kt2*y20*y209-kt2*y21*y209-kt2*y24*y209-kt2*y25*y209-kt2*y28*y209-kt2*y29*y209-kt2*y32*y209-kt2*y33*y209-kt2*y36*y209-kt2*y37*y209-kt2*y40*y209-kt2*y41*y209-kt2*y44*y209-kt2*y45*y209-kt2*y48*y209-kt2*y49*y209-kt2*y52*y209-kt2*y53*y209-kt2*y56*y209-kt2*y57*y209-kt2*y60*y209-kt2*y61*y209-kt2*y64*y209-kt2*y65*y209+lt2*y70+lt2*y71+lt2*y74+lt2*y75+lt2*y78+lt2*y79+lt2*y82+lt2*y83+lt2*y86+lt2*y87+lt2*y90+lt2*y91+lt2*y94+lt2*y95+lt2*y98+lt2*y99+lt2*y102+lt2*y103+lt2*y106+lt2*y107+lt2*y110+lt2*y111+lt2*y114+lt2*y115+lt2*y118+lt2*y119+lt2*y122+lt2*y123+lt2*y126+lt2*y127+lt2*y130+lt2*y131+lt2*y134+lt2*y135+lt2*y138+lt2*y139+lt2*y142+lt2*y143+lt2*y146+lt2*y147+lt2*y150+lt2*y151+lt2*y154+lt2*y155+lt2*y158+lt2*y159+lt2*y162+lt2*y163+lt2*y166+lt2*y167+lt2*y170+lt2*y171+lt2*y174+lt2*y175+lt2*y178+lt2*y179+lt2*y182+lt2*y183+lt2*y186+lt2*y187+lt2*y190+lt2*y191+lt2*y194+lt2*y195-kt2*y68*y209-kt2*y69*y209-kt2*y72*y209-kt2*y73*y209-kt2*y76*y209-kt2*y77*y209-kt2*y80*y209-kt2*y81*y209-kt2*y84*y209-kt2*y85*y209-kt2*y88*y209-kt2*y89*y209-kt2*y92*y209-kt2*y93*y209-kt2*y96*y209-kt2*y97*y209-kt2*y100*y209-kt2*y101*y209-kt2*y104*y209-kt2*y105*y209-kt2*y108*y209-kt2*y109*y209-kt2*y112*y209-kt2*y113*y209-kt2*y116*y209-kt2*y117*y209-kt2*y120*y209-kt2*y121*y209-kt2*y124*y209-kt2*y125*y209-kt2*y128*y209-kt2*y129*y209-kt2*y132*y209-kt2*y133*y209-kt2*y136*y209-kt2*y137*y209-kt2*y140*y209-kt2*y141*y209-kt2*y144*y209-kt2*y145*y209-kt2*y148*y209-kt2*y149*y209-kt2*y152*y209-kt2*y153*y209-kt2*y156*y209-kt2*y157*y209-kt2*y160*y209-kt2*y161*y209-kt2*y164*y209-kt2*y165*y209-kt2*y168*y209-kt2*y169*y209-kt2*y172*y209-kt2*y173*y209-kt2*y176*y209-kt2*y177*y209-kt2*y180*y209-kt2*y181*y209-kt2*y184*y209-kt2*y185*y209-kt2*y188*y209-kt2*y189*y209-kt2*y192*y209-kt2*y193*y209)"
+"0.1*(+lg2*y8+lg2*y9+lg2*y10+lg2*y11+lg2*y16+lg2*y17+lg2*y18+lg2*y19+lg2*y24+lg2*y25+lg2*y26+lg2*y27+lg2*y32+lg2*y33+lg2*y34+lg2*y35+lg2*y40+lg2*y41+lg2*y42+lg2*y43+lg2*y48+lg2*y49+lg2*y50+lg2*y51+lg2*y56+lg2*y57+lg2*y58+lg2*y59+lg2*y64+lg2*y65+lg2*y67-kg2*y4*y210-kg2*y5*y210-kg2*y6*y210-kg2*y7*y210-kg2*y12*y210-kg2*y13*y210-kg2*y14*y210-kg2*y15*y210-kg2*y20*y210-kg2*y21*y210-kg2*y22*y210-kg2*y23*y210-kg2*y28*y210-kg2*y29*y210-kg2*y30*y210-kg2*y31*y210-kg2*y36*y210-kg2*y37*y210-kg2*y38*y210-kg2*y39*y210-kg2*y44*y210-kg2*y45*y210-kg2*y46*y210-kg2*y47*y210-kg2*y52*y210-kg2*y53*y210-kg2*y54*y210-kg2*y55*y210-kg2*y60*y210-kg2*y61*y210-kg2*y62*y210-kg2*y63*y210+lg2*y72+lg2*y73+lg2*y74+lg2*y75+lg2*y80+lg2*y81+lg2*y82+lg2*y83+lg2*y88+lg2*y89+lg2*y90+lg2*y91+lg2*y96+lg2*y97+lg2*y98+lg2*y99+lg2*y104+lg2*y105+lg2*y106+lg2*y107+lg2*y112+lg2*y113+lg2*y114+lg2*y115+lg2*y120+lg2*y121+lg2*y122+lg2*y123+lg2*y128+lg2*y129+lg2*y130+lg2*y131+lg2*y136+lg2*y137+lg2*y138+lg2*y139+lg2*y144+lg2*y145+lg2*y146+lg2*y147+lg2*y152+lg2*y153+lg2*y154+lg2*y155+lg2*y160+lg2*y161+lg2*y162+lg2*y163+lg2*y168+lg2*y169+lg2*y170+lg2*y171+lg2*y176+lg2*y177+lg2*y178+lg2*y179+lg2*y184+lg2*y185+lg2*y186+lg2*y187+lg2*y192+lg2*y193+lg2*y194+lg2*y195-kg2*y68*y210-kg2*y69*y210-kg2*y70*y210-kg2*y71*y210-kg2*y76*y210-kg2*y77*y210-kg2*y78*y210-kg2*y79*y210-kg2*y84*y210-kg2*y85*y210-kg2*y86*y210-kg2*y87*y210-kg2*y92*y210-kg2*y93*y210-kg2*y94*y210-kg2*y95*y210-kg2*y100*y210-kg2*y101*y210-kg2*y102*y210-kg2*y103*y210-kg2*y108*y210-kg2*y109*y210-kg2*y110*y210-kg2*y111*y210-kg2*y116*y210-kg2*y117*y210-kg2*y118*y210-kg2*y119*y210-kg2*y124*y210-kg2*y125*y210-kg2*y126*y210-kg2*y127*y210-kg2*y132*y210-kg2*y133*y210-kg2*y134*y210-kg2*y135*y210-kg2*y140*y210-kg2*y141*y210-kg2*y142*y210-kg2*y143*y210-kg2*y148*y210-kg2*y149*y210-kg2*y150*y210-kg2*y151*y210-kg2*y156*y210-kg2*y157*y210-kg2*y158*y210-kg2*y159*y210-kg2*y164*y210-kg2*y165*y210-kg2*y166*y210-kg2*y167*y210-kg2*y172*y210-kg2*y173*y210-kg2*y174*y210-kg2*y175*y210-kg2*y180*y210-kg2*y181*y210-kg2*y182*y210-kg2*y183*y210-kg2*y188*y210-kg2*y189*y210-kg2*y190*y210-kg2*y191*y210)"
+"0.1*(+lf2*y12+lf2*y13+lf2*y14+lf2*y15+lf2*y16+lf2*y17+lf2*y18+lf2*y19+lf2*y28+lf2*y29+lf2*y30+lf2*y31+lf2*y32+lf2*y33+lf2*y34+lf2*y35+lf2*y44+lf2*y45+lf2*y46+lf2*y47+lf2*y48+lf2*y49+lf2*y50+lf2*y51+lf2*y60+lf2*y61+lf2*y62+lf2*y63+lf2*y64+lf2*y65+lf2*y67-kf2*y4*y211-kf2*y5*y211-kf2*y6*y211-kf2*y7*y211-kf2*y8*y211-kf2*y9*y211-kf2*y10*y211-kf2*y11*y211-kf2*y20*y211-kf2*y21*y211-kf2*y22*y211-kf2*y23*y211-kf2*y24*y211-kf2*y25*y211-kf2*y26*y211-kf2*y27*y211-kf2*y36*y211-kf2*y37*y211-kf2*y38*y211-kf2*y39*y211-kf2*y40*y211-kf2*y41*y211-kf2*y42*y211-kf2*y43*y211-kf2*y52*y211-kf2*y53*y211-kf2*y54*y211-kf2*y55*y211-kf2*y56*y211-kf2*y57*y211-kf2*y58*y211-kf2*y59*y211+lf2*y76+lf2*y77+lf2*y78+lf2*y79+lf2*y80+lf2*y81+lf2*y82+lf2*y83+lf2*y92+lf2*y93+lf2*y94+lf2*y95+lf2*y96+lf2*y97+lf2*y98+lf2*y99+lf2*y108+lf2*y109+lf2*y110+lf2*y111+lf2*y112+lf2*y113+lf2*y114+lf2*y115+lf2*y124+lf2*y125+lf2*y126+lf2*y127+lf2*y128+lf2*y129+lf2*y130+lf2*y131+lf2*y140+lf2*y141+lf2*y142+lf2*y143+lf2*y144+lf2*y145+lf2*y146+lf2*y147+lf2*y156+lf2*y157+lf2*y158+lf2*y159+lf2*y160+lf2*y161+lf2*y162+lf2*y163+lf2*y172+lf2*y173+lf2*y174+lf2*y175+lf2*y176+lf2*y177+lf2*y178+lf2*y179+lf2*y188+lf2*y189+lf2*y190+lf2*y191+lf2*y192+lf2*y193+lf2*y194+lf2*y195-kf2*y68*y211-kf2*y69*y211-kf2*y70*y211-kf2*y71*y211-kf2*y72*y211-kf2*y73*y211-kf2*y74*y211-kf2*y75*y211-kf2*y84*y211-kf2*y85*y211-kf2*y86*y211-kf2*y87*y211-kf2*y88*y211-kf2*y89*y211-kf2*y90*y211-kf2*y91*y211-kf2*y100*y211-kf2*y101*y211-kf2*y102*y211-kf2*y103*y211-kf2*y104*y211-kf2*y105*y211-kf2*y106*y211-kf2*y107*y211-kf2*y116*y211-kf2*y117*y211-kf2*y118*y211-kf2*y119*y211-kf2*y120*y211-kf2*y121*y211-kf2*y122*y211-kf2*y123*y211-kf2*y132*y211-kf2*y133*y211-kf2*y134*y211-kf2*y135*y211-kf2*y136*y211-kf2*y137*y211-kf2*y138*y211-kf2*y139*y211-kf2*y148*y211-kf2*y149*y211-kf2*y150*y211-kf2*y151*y211-kf2*y152*y211-kf2*y153*y211-kf2*y154*y211-kf2*y155*y211-kf2*y164*y211-kf2*y165*y211-kf2*y166*y211-kf2*y167*y211-kf2*y168*y211-kf2*y169*y211-kf2*y170*y211-kf2*y171*y211-kf2*y180*y211-kf2*y181*y211-kf2*y182*y211-kf2*y183*y211-kf2*y184*y211-kf2*y185*y211-kf2*y186*y211-kf2*y187*y211)"
+"0.1*(+la2*y20+la2*y21+la2*y22+la2*y23+la2*y24+la2*y25+la2*y26+la2*y27+la2*y28+la2*y29+la2*y30+la2*y31+la2*y32+la2*y33+la2*y34+la2*y35+la2*y52+la2*y53+la2*y54+la2*y55+la2*y56+la2*y57+la2*y58+la2*y59+la2*y60+la2*y61+la2*y62+la2*y63+la2*y64+la2*y65+la2*y67-ka2*y4*y212-ka2*y5*y212-ka2*y6*y212-ka2*y7*y212-ka2*y8*y212-ka2*y9*y212-ka2*y10*y212-ka2*y11*y212-ka2*y12*y212-ka2*y13*y212-ka2*y14*y212-ka2*y15*y212-ka2*y16*y212-ka2*y17*y212-ka2*y18*y212-ka2*y19*y212-ka2*y36*y212-ka2*y37*y212-ka2*y38*y212-ka2*y39*y212-ka2*y40*y212-ka2*y41*y212-ka2*y42*y212-ka2*y43*y212-ka2*y44*y212-ka2*y45*y212-ka2*y46*y212-ka2*y47*y212-ka2*y48*y212-ka2*y49*y212-ka2*y50*y212-ka2*y51*y212+la2*y84+la2*y85+la2*y86+la2*y87+la2*y88+la2*y89+la2*y90+la2*y91+la2*y92+la2*y93+la2*y94+la2*y95+la2*y96+la2*y97+la2*y98+la2*y99+la2*y116+la2*y117+la2*y118+la2*y119+la2*y120+la2*y121+la2*y122+la2*y123+la2*y124+la2*y125+la2*y126+la2*y127+la2*y128+la2*y129+la2*y130+la2*y131+la2*y148+la2*y149+la2*y150+la2*y151+la2*y152+la2*y153+la2*y154+la2*y155+la2*y156+la2*y157+la2*y158+la2*y159+la2*y160+la2*y161+la2*y162+la2*y163+la2*y180+la2*y181+la2*y182+la2*y183+la2*y184+la2*y185+la2*y186+la2*y187+la2*y188+la2*y189+la2*y190+la2*y191+la2*y192+la2*y193+la2*y194+la2*y195-ka2*y68*y212-ka2*y69*y212-ka2*y70*y212-ka2*y71*y212-ka2*y72*y212-ka2*y73*y212-ka2*y74*y212-ka2*y75*y212-ka2*y76*y212-ka2*y77*y212-ka2*y78*y212-ka2*y79*y212-ka2*y80*y212-ka2*y81*y212-ka2*y82*y212-ka2*y83*y212-ka2*y100*y212-ka2*y101*y212-ka2*y102*y212-ka2*y103*y212-ka2*y104*y212-ka2*y105*y212-ka2*y106*y212-ka2*y107*y212-ka2*y108*y212-ka2*y109*y212-ka2*y110*y212-ka2*y111*y212-ka2*y112*y212-ka2*y113*y212-ka2*y114*y212-ka2*y115*y212-ka2*y132*y212-ka2*y133*y212-ka2*y134*y212-ka2*y135*y212-ka2*y136*y212-ka2*y137*y212-ka2*y138*y212-ka2*y139*y212-ka2*y140*y212-ka2*y141*y212-ka2*y142*y212-ka2*y143*y212-ka2*y144*y212-ka2*y145*y212-ka2*y146*y212-ka2*y147*y212-ka2*y164*y212-ka2*y165*y212-ka2*y166*y212-ka2*y167*y212-ka2*y168*y212-ka2*y169*y212-ka2*y170*y212-ka2*y171*y212-ka2*y172*y212-ka2*y173*y212-ka2*y174*y212-ka2*y175*y212-ka2*y176*y212-ka2*y177*y212-ka2*y178*y212-ka2*y179*y212+la4*y197+la4*y199+la4*y201+la4*y203-ka4*y196*y212-ka4*y198*y212-ka4*y200*y212-ka4*y202*y212)"
+"0.1*(+lr2*y36+lr2*y37+lr2*y38+lr2*y39+lr2*y40+lr2*y41+lr2*y42+lr2*y43+lr2*y44+lr2*y45+lr2*y46+lr2*y47+lr2*y48+lr2*y49+lr2*y50+lr2*y51+lr2*y52+lr2*y53+lr2*y54+lr2*y55+lr2*y56+lr2*y57+lr2*y58+lr2*y59+lr2*y60+lr2*y61+lr2*y62+lr2*y63+lr2*y64+lr2*y65+lr2*y67-kr2*y4*y213-kr2*y5*y213-kr2*y6*y213-kr2*y7*y213-kr2*y8*y213-kr2*y9*y213-kr2*y10*y213-kr2*y11*y213-kr2*y12*y213-kr2*y13*y213-kr2*y14*y213-kr2*y15*y213-kr2*y16*y213-kr2*y17*y213-kr2*y18*y213-kr2*y19*y213-kr2*y20*y213-kr2*y21*y213-kr2*y22*y213-kr2*y23*y213-kr2*y24*y213-kr2*y25*y213-kr2*y26*y213-kr2*y27*y213-kr2*y28*y213-kr2*y29*y213-kr2*y30*y213-kr2*y31*y213-kr2*y32*y213-kr2*y33*y213-kr2*y34*y213-kr2*y35*y213+lr2*y100+lr2*y101+lr2*y102+lr2*y103+lr2*y104+lr2*y105+lr2*y106+lr2*y107+lr2*y108+lr2*y109+lr2*y110+lr2*y111+lr2*y112+lr2*y113+lr2*y114+lr2*y115+lr2*y116+lr2*y117+lr2*y118+lr2*y119+lr2*y120+lr2*y121+lr2*y122+lr2*y123+lr2*y124+lr2*y125+lr2*y126+lr2*y127+lr2*y128+lr2*y129+lr2*y130+lr2*y131+lr2*y164+lr2*y165+lr2*y166+lr2*y167+lr2*y168+lr2*y169+lr2*y170+lr2*y171+lr2*y172+lr2*y173+lr2*y174+lr2*y175+lr2*y176+lr2*y177+lr2*y178+lr2*y179+lr2*y180+lr2*y181+lr2*y182+lr2*y183+lr2*y184+lr2*y185+lr2*y186+lr2*y187+lr2*y188+lr2*y189+lr2*y190+lr2*y191+lr2*y192+lr2*y193+lr2*y194+lr2*y195-kr2*y68*y213-kr2*y69*y213-kr2*y70*y213-kr2*y71*y213-kr2*y72*y213-kr2*y73*y213-kr2*y74*y213-kr2*y75*y213-kr2*y76*y213-kr2*y77*y213-kr2*y78*y213-kr2*y79*y213-kr2*y80*y213-kr2*y81*y213-kr2*y82*y213-kr2*y83*y213-kr2*y84*y213-kr2*y85*y213-kr2*y86*y213-kr2*y87*y213-kr2*y88*y213-kr2*y89*y213-kr2*y90*y213-kr2*y91*y213-kr2*y92*y213-kr2*y93*y213-kr2*y94*y213-kr2*y95*y213-kr2*y96*y213-kr2*y97*y213-kr2*y98*y213-kr2*y99*y213-kr2*y132*y213-kr2*y133*y213-kr2*y134*y213-kr2*y135*y213-kr2*y136*y213-kr2*y137*y213-kr2*y138*y213-kr2*y139*y213-kr2*y140*y213-kr2*y141*y213-kr2*y142*y213-kr2*y143*y213-kr2*y144*y213-kr2*y145*y213-kr2*y146*y213-kr2*y147*y213-kr2*y148*y213-kr2*y149*y213-kr2*y150*y213-kr2*y151*y213-kr2*y152*y213-kr2*y153*y213-kr2*y154*y213-kr2*y155*y213-kr2*y156*y213-kr2*y157*y213-kr2*y158*y213-kr2*y159*y213-kr2*y160*y213-kr2*y161*y213-kr2*y162*y213-kr2*y163*y213+lr4*y198+lr4*y199+lr4*y202+lr4*y203-kr4*y196*y213-kr4*y197*y213-kr4*y200*y213-kr4*y201*y213+lr5*y205+lr5*y207-kr5*y204*y213-kr5*y206*y213)"
+"0.1*(+lp3*y132+lp3*y133+lp3*y134+lp3*y135+lp3*y136+lp3*y137+lp3*y138+lp3*y139+lp3*y140+lp3*y141+lp3*y142+lp3*y143+lp3*y144+lp3*y145+lp3*y146+lp3*y147+lp3*y148+lp3*y149+lp3*y150+lp3*y151+lp3*y152+lp3*y153+lp3*y154+lp3*y155+lp3*y156+lp3*y157+lp3*y158+lp3*y159+lp3*y160+lp3*y161+lp3*y162+lp3*y163+lp3*y164+lp3*y165+lp3*y166+lp3*y167+lp3*y168+lp3*y169+lp3*y170+lp3*y171+lp3*y172+lp3*y173+lp3*y174+lp3*y175+lp3*y176+lp3*y177+lp3*y178+lp3*y179+lp3*y180+lp3*y181+lp3*y182+lp3*y183+lp3*y184+lp3*y185+lp3*y186+lp3*y187+lp3*y188+lp3*y189+lp3*y190+lp3*y191+lp3*y192+lp3*y193+lp3*y194+lp3*y195-kp3*(1-para_FLIP_pcna)*y68*y214-kp3*(1-para_FLIP_pcna)*y69*y214-kp3*(1-para_FLIP_pcna)*y70*y214-kp3*(1-para_FLIP_pcna)*y71*y214-kp3*(1-para_FLIP_pcna)*y72*y214-kp3*(1-para_FLIP_pcna)*y73*y214-kp3*(1-para_FLIP_pcna)*y74*y214-kp3*(1-para_FLIP_pcna)*y75*y214-kp3*(1-para_FLIP_pcna)*y76*y214-kp3*(1-para_FLIP_pcna)*y77*y214-kp3*(1-para_FLIP_pcna)*y78*y214-kp3*(1-para_FLIP_pcna)*y79*y214-kp3*(1-para_FLIP_pcna)*y80*y214-kp3*(1-para_FLIP_pcna)*y81*y214-kp3*(1-para_FLIP_pcna)*y82*y214-kp3*(1-para_FLIP_pcna)*y83*y214-kp3*(1-para_FLIP_pcna)*y84*y214-kp3*(1-para_FLIP_pcna)*y85*y214-kp3*(1-para_FLIP_pcna)*y86*y214-kp3*(1-para_FLIP_pcna)*y87*y214-kp3*(1-para_FLIP_pcna)*y88*y214-kp3*(1-para_FLIP_pcna)*y89*y214-kp3*(1-para_FLIP_pcna)*y90*y214-kp3*(1-para_FLIP_pcna)*y91*y214-kp3*(1-para_FLIP_pcna)*y92*y214-kp3*(1-para_FLIP_pcna)*y93*y214-kp3*(1-para_FLIP_pcna)*y94*y214-kp3*(1-para_FLIP_pcna)*y95*y214-kp3*(1-para_FLIP_pcna)*y96*y214-kp3*(1-para_FLIP_pcna)*y97*y214-kp3*(1-para_FLIP_pcna)*y98*y214-kp3*(1-para_FLIP_pcna)*y99*y214-kp3*(1-para_FLIP_pcna)*y100*y214-kp3*(1-para_FLIP_pcna)*y101*y214-kp3*(1-para_FLIP_pcna)*y102*y214-kp3*(1-para_FLIP_pcna)*y103*y214-kp3*(1-para_FLIP_pcna)*y104*y214-kp3*(1-para_FLIP_pcna)*y105*y214-kp3*(1-para_FLIP_pcna)*y106*y214-kp3*(1-para_FLIP_pcna)*y107*y214-kp3*(1-para_FLIP_pcna)*y108*y214-kp3*(1-para_FLIP_pcna)*y109*y214-kp3*(1-para_FLIP_pcna)*y110*y214-kp3*(1-para_FLIP_pcna)*y111*y214-kp3*(1-para_FLIP_pcna)*y112*y214-kp3*(1-para_FLIP_pcna)*y113*y214-kp3*(1-para_FLIP_pcna)*y114*y214-kp3*(1-para_FLIP_pcna)*y115*y214-kp3*(1-para_FLIP_pcna)*y116*y214-kp3*(1-para_FLIP_pcna)*y117*y214-kp3*(1-para_FLIP_pcna)*y118*y214-kp3*(1-para_FLIP_pcna)*y119*y214-kp3*(1-para_FLIP_pcna)*y120*y214-kp3*(1-para_FLIP_pcna)*y121*y214-kp3*(1-para_FLIP_pcna)*y122*y214-kp3*(1-para_FLIP_pcna)*y123*y214-kp3*(1-para_FLIP_pcna)*y124*y214-kp3*(1-para_FLIP_pcna)*y125*y214-kp3*(1-para_FLIP_pcna)*y126*y214-kp3*(1-para_FLIP_pcna)*y127*y214-kp3*(1-para_FLIP_pcna)*y128*y214-kp3*(1-para_FLIP_pcna)*y129*y214-kp3*(1-para_FLIP_pcna)*y130*y214-kp3*(1-para_FLIP_pcna)*y131*y214+lp4*y200+lp4*y201+lp4*y202+lp4*y203-kp4*(1-para_FLIP_pcna)*y196*y214-kp4*(1-para_FLIP_pcna)*y197*y214-kp4*(1-para_FLIP_pcna)*y198*y214-kp4*(1-para_FLIP_pcna)*y199*y214+lp5*y206+lp5*y207-kp5*(1-para_FLIP_pcna)*y204*y214-kp5*(1-para_FLIP_pcna)*y205*y214)"
+
+
+DERIVED
+
+OBSERVABLES
+PCNADrug_FLIP           C   muM  conc.   0   0   "s2*(+y132+y133+y134+y135+y136+y137+y138+y139+y140+y141+y142+y143+y144+y145+y146+y147+y148+y149+y150+y151+y152+y153+y154+y155+y156+y157+y158+y159+y160+y161+y162+y163+y164+y165+y166+y167+y168+y169+y170+y171+y172+y173+y174+y175+y176+y177+y178+y179+y180+y181+y182+y183+y184+y185+y186+y187+y188+y189+y190+y191+y192+y193+y194+y195+y200+y201+y202+y203+y206+y207)"
+
+
+ERRORS
+PCNADrug_FLIP   	"sd_PCNADrug_FLIP"
+
+
+CONDITIONS
+gammaPar "0"
+input_para_FLIP_pcnaDrug  "0"
+init_y1  "3.33333"
+init_y2  "0"
+init_y3  "0"
+init_y4  "0"
+init_y5  "0"
+init_y6  "0"
+init_y7  "0"
+init_y8  "0"
+init_y9  "0"
+init_y10  "0"
+init_y11  "0"
+init_y12  "0"
+init_y13  "0"
+init_y14  "0"
+init_y15  "0"
+init_y16  "0"
+init_y17  "0"
+init_y18  "0"
+init_y19  "0"
+init_y20  "0"
+init_y21  "0"
+init_y22  "0"
+init_y23  "0"
+init_y24  "0"
+init_y25  "0"
+init_y26  "0"
+init_y27  "0"
+init_y28  "0"
+init_y29  "0"
+init_y30  "0"
+init_y31  "0"
+init_y32  "0"
+init_y33  "0"
+init_y34  "0"
+init_y35  "0"
+init_y36  "0"
+init_y37  "0"
+init_y38  "0"
+init_y39  "0"
+init_y40  "0"
+init_y41  "0"
+init_y42  "0"
+init_y43  "0"
+init_y44  "0"
+init_y45  "0"
+init_y46  "0"
+init_y47  "0"
+init_y48  "0"
+init_y49  "0"
+init_y50  "0"
+init_y51  "0"
+init_y52  "0"
+init_y53  "0"
+init_y54  "0"
+init_y55  "0"
+init_y56  "0"
+init_y57  "0"
+init_y58  "0"
+init_y59  "0"
+init_y60  "0"
+init_y61  "0"
+init_y62  "0"
+init_y63  "0"
+init_y64  "0"
+init_y65  "0"
+init_y67  "0"
+init_y68  "0"
+init_y69  "0"
+init_y70  "0"
+init_y71  "0"
+init_y72  "0"
+init_y73  "0"
+init_y74  "0"
+init_y75  "0"
+init_y76  "0"
+init_y77  "0"
+init_y78  "0"
+init_y79  "0"
+init_y80  "0"
+init_y81  "0"
+init_y82  "0"
+init_y83  "0"
+init_y84  "0"
+init_y85  "0"
+init_y86  "0"
+init_y87  "0"
+init_y88  "0"
+init_y89  "0"
+init_y90  "0"
+init_y91  "0"
+init_y92  "0"
+init_y93  "0"
+init_y94  "0"
+init_y95  "0"
+init_y96  "0"
+init_y97  "0"
+init_y98  "0"
+init_y99  "0"
+init_y100  "0"
+init_y101  "0"
+init_y102  "0"
+init_y103  "0"
+init_y104  "0"
+init_y105  "0"
+init_y106  "0"
+init_y107  "0"
+init_y108  "0"
+init_y109  "0"
+init_y110  "0"
+init_y111  "0"
+init_y112  "0"
+init_y113  "0"
+init_y114  "0"
+init_y115  "0"
+init_y116  "0"
+init_y117  "0"
+init_y118  "0"
+init_y119  "0"
+init_y120  "0"
+init_y121  "0"
+init_y122  "0"
+init_y123  "0"
+init_y124  "0"
+init_y125  "0"
+init_y126  "0"
+init_y127  "0"
+init_y128  "0"
+init_y129  "0"
+init_y130  "0"
+init_y131  "0"
+init_y132  "0"
+init_y133  "0"
+init_y134  "0"
+init_y135  "0"
+init_y136  "0"
+init_y137  "0"
+init_y138  "0"
+init_y139  "0"
+init_y140  "0"
+init_y141  "0"
+init_y142  "0"
+init_y143  "0"
+init_y144  "0"
+init_y145  "0"
+init_y146  "0"
+init_y147  "0"
+init_y148  "0"
+init_y149  "0"
+init_y150  "0"
+init_y151  "0"
+init_y152  "0"
+init_y153  "0"
+init_y154  "0"
+init_y155  "0"
+init_y156  "0"
+init_y157  "0"
+init_y158  "0"
+init_y159  "0"
+init_y160  "0"
+init_y161  "0"
+init_y162  "0"
+init_y163  "0"
+init_y164  "0"
+init_y165  "0"
+init_y166  "0"
+init_y167  "0"
+init_y168  "0"
+init_y169  "0"
+init_y170  "0"
+init_y171  "0"
+init_y172  "0"
+init_y173  "0"
+init_y174  "0"
+init_y175  "0"
+init_y176  "0"
+init_y177  "0"
+init_y178  "0"
+init_y179  "0"
+init_y180  "0"
+init_y181  "0"
+init_y182  "0"
+init_y183  "0"
+init_y184  "0"
+init_y185  "0"
+init_y186  "0"
+init_y187  "0"
+init_y188  "0"
+init_y189  "0"
+init_y190  "0"
+init_y191  "0"
+init_y192  "0"
+init_y193  "0"
+init_y194  "0"
+init_y195  "0"
+init_y196  "0"
+init_y197  "0"
+init_y198  "0"
+init_y199  "0"
+init_y200  "0"
+init_y201  "0"
+init_y202  "0"
+init_y203  "0"
+init_y204  "0"
+init_y205  "0"
+init_y206  "0"
+init_y207  "0"
+init_y208  "1.38e-1"
+init_y209  "3.6e-1"
+init_y210  "4.43e-1"
+init_y211  "1.1107"
+init_y212  "2.77e-1"
+init_y213  "1.384"
+init_y214  "1.384"
+

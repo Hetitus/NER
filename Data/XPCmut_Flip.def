@@ -1,0 +1,22 @@
+DESCRIPTION
+"Experimenter: Paul Verbruggen"
+"Cells: Fibroblast"
+"FLIP data XPC"
+
+PREDICTOR
+t               T   s     time	0	18000
+
+INPUTS
+para_FLIP_xpc            "(1 - 1 / (exp(10*(t-600)) + 1))"
+
+OBSERVABLES
+XPCmut_FLIP          C   au  conc.   0   0   "s4*(y2+y3+y5+y7+y9+y11+y13+y15+y17+y19+y21+y23+y25+y27+y29+y31+y33+y35+y37+y39+y41+y43+y45+y47+y49+y51+y53+y55+y57+y59+y61+y63+y65+y67+y69+y71+y73+y75+y77+y79+y81+y83+y85+y87+y89+y91+y93+y95+y97+y99+y101+y103+y105+y107+y109+y111+y113+y115+y117+y119+y121+y123+y125+y127+y129+y131+y133+y135+y137+y139+y141+y143+y145+y147+y149+y151+y153+y155+y157+y159+y161+y163+y165+y167+y169+y171+y173+y175+y177+y179+y181+y183+y185+y187+y189+y191+y193+y195)"
+
+
+ERRORS
+XPCmut_FLIP	"sd_XPCmut_FLIP"
+
+
+INVARIANTS
+
+CONDITIONS

@@ -1,0 +1,22 @@
+DESCRIPTION
+"Experimenter: Paul Verbruggen"
+"Cells: Fibroblast"
+"FLIP data XPG"
+
+PREDICTOR
+t               T   s     time	0	18000
+
+INPUTS
+para_FLIP_xpg            "(1 - 1 / (exp(10*(t-900)) + 1))"
+
+OBSERVABLES
+
+
+
+ERRORS
+
+
+
+
+
+CONDITIONS

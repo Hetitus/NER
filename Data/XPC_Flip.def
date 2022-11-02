@@ -1,0 +1,20 @@
+DESCRIPTION
+"Experimenter: Paul Verbruggen"
+"Cells: Fibroblast"
+"FLIP data XPC"
+
+PREDICTOR
+t               T   s     time	0	18000
+
+INPUTS
+para_FLIP_xpc            "(1 - 1 / (exp(10*(t-600)) + 1))"
+
+OBSERVABLES
+
+
+ERRORS
+
+
+
+
+CONDITIONS

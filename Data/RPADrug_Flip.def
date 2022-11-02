@@ -1,0 +1,17 @@
+DESCRIPTION
+"Experimenter: Paul Verbruggen"
+"Cells: Fibroblast"
+"FLIP data RPA Drug"
+
+PREDICTOR
+t               T   s     time	0	18000
+
+INPUTS
+para_FLIP_rpa            "(1 - 1 / (exp(10*(t-7200)) + 1))"
+
+OBSERVABLES
+
+ERRORS
+
+
+CONDITIONS
